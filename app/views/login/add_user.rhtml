@@ -1,0 +1,12 @@
+<h1>Add a New User</h1><br>
+<%= error_messages_for 'user' %>
+<%= form_tag %>
+  Name:<br>
+  <%= text_field("user", "name") %>
+  <br><br>
+  Password:<br>
+  <%= password_field("user", "password") %>
+  <br><br>  
+  <input type="submit" value=" Add a new user " />
+<%= end_form_tag %>
+

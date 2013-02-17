@@ -1,0 +1,44 @@
+What'sBest! Solution Report
+
+
+OBJECTIVE CELL:
+
+CELL;;INITIAL
+ADDRESS;VALUE;VALUE;TYPE
+;;;-----------------------------------------------
+Optimization!C52                         ;   .3957592;   .3945581;MAX
+
+
+ADJUSTABLE CELLS:
+
+CELL;;INITIAL;;DUAL;UPPER;LOWER
+ADDRESS;VALUE;VALUE;TYPE;VALUE;RANGE;RANGE
+;;;;;;------------------------------------------------------------------------------------------
+Optimization!B37                         ;          0;          0; >=0;  -.8499309;          0;          0
+Optimization!B38                         ;          0;          0; >=0;  -1.014525;          0;          0
+Optimization!B39                         ;   .7155793;   .7155793; >=0;          0;          0;          0
+Optimization!B40                         ;          0;          0; >=0;  -.9806519;          0;          0
+Optimization!B41                         ;          0;          0; >=0;  -.1356205;          0;          0
+Optimization!B42                         ;          0;          0; >=0;  -.6904499;          0;          0
+Optimization!B43                         ;          0;          0; >=0;  -.4196084;          0;          0
+Optimization!B44                         ;          0;          0; >=0;   -.594732;          0;          0
+Optimization!B45                         ;   .2844207;   .2844207; >=0;  -.0000021;          0;          0
+Optimization!B46                         ;          0;          0; >=0;   -.306188;          0;          0
+
+
+CONSTRAINT CELLS:
+
+CELL;;;;DUAL;UPPER;LOWER
+ADDRESS;VALUE;;TYPE;VALUE;RANGE;RANGE;FORMULA
+;;;;;;------------------------------------------------------------------------------------------;----------
+Optimization!C37                         ;          0;;>=;          0;          0;          0;B37 >= D37
+Optimization!C38                         ;          0;;>=;          0;          0;          0;B38 >= D38
+Optimization!C39                         ;   .7155793;;>=;          0;          0;          0;B39 >= D39
+Optimization!C40                         ;          0;;>=;          0;          0;          0;B40 >= D40
+Optimization!C41                         ;          0;;>=;          0;          0;          0;B41 >= D41
+Optimization!C42                         ;          0;;>=;          0;          0;          0;B42 >= D42
+Optimization!C43                         ;          0;;>=;          0;          0;          0;B43 >= D43
+Optimization!C44                         ;          0;;>=;          0;          0;          0;B44 >= D44
+Optimization!C45                         ;   .2844207;;>=;          0;          0;          0;B45 >= D45
+Optimization!C46                         ;          0;;>=;          0;          0;          0;B46 >= D46
+Optimization!C47                         ;          0;;<=;  -.0824135;          0;          0;B47 <= D47

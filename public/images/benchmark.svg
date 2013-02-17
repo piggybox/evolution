@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"  type=""?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="360" xmlns="http://www.w3.org/2000/svg">
+  <g id="scruffy_graph">
+    <g id="background" transform="translate(0.0, 0.0)">
+      <defs>
+        <linearGradient x1="0%" y1="0%" x2="0%" id="BackgroundGradient" y2="100%">
+          <stop stop-color="black" offset="5%"/>
+          <stop stop-color="#4A465A" offset="95%"/>
+        </linearGradient>
+      </defs>
+      <rect width="600.0" height="360.0" x="0" fill="url(#BackgroundGradient)" y="0"/>
+    </g>
+    <g id="title" transform="translate(30.0, 7.2)">
+      <text class="title" stroke="none" font-size="25.2" text-anchor="middle" x="270.0" fill="white" y="25.2" stroke-width="0">Benchmark on Cumulative Performance</text>
+    </g>
+    <g id="view" transform="translate(12.0, 93.6)">
+      <g>
+        <g id="values" transform="translate(0.0, 4.752)">
+          <text font-size="16.91712" text-anchor="end" x="96.12" fill="white" y="211.464">-4</text>
+          <text font-size="16.91712" text-anchor="end" x="96.12" fill="white" y="158.598">-1</text>
+          <text font-size="16.91712" text-anchor="end" x="96.12" fill="white" y="105.732">1</text>
+          <text font-size="16.91712" text-anchor="end" x="96.12" fill="white" y="52.866">3</text>
+          <text font-size="16.91712" text-anchor="end" x="96.12" fill="white" y="0.0">5</text>
+        </g>
+        <g id="grid" transform="translate(106.8, 0.0)">
+          <line x1="0" y1="0.0" x2="427.2" y2="0.0" style="stroke: white; stroke-width: 2;"/>
+          <line x1="0" y1="52.866" x2="427.2" y2="52.866" style="stroke: white; stroke-width: 2;"/>
+          <line x1="0" y1="105.732" x2="427.2" y2="105.732" style="stroke: white; stroke-width: 2;"/>
+          <line x1="0" y1="158.598" x2="427.2" y2="158.598" style="stroke: white; stroke-width: 2;"/>
+          <line x1="0" y1="211.464" x2="427.2" y2="211.464" style="stroke: white; stroke-width: 2;"/>
+        </g>
+        <g id="labels" transform="translate(106.8, 218.592)">
+        </g>
+        <g id="graphs" transform="translate(106.8, 0.0)">
+          <g class="graph_layer" id="component_graphs_graph_0">
+            <g class="shadow" transform="translate(1.05732, 1.05732)">
+              <polyline stroke="black" fill="transparent" stroke-width="4.22928" style="fill-opacity: 0; stroke-opacity: 0.35" points="0.0,88.7208943418453 85.44,83.5007857031586 170.88,47.8259872516537 256.32,149.753554207966 341.76,183.881739130435 427.2,166.958753091565"/>
+              <circle cy="90.6240703418453" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="0.0" r="4.22928"/>
+              <circle cy="85.4039617031586" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="85.44" r="4.22928"/>
+              <circle cy="49.7291632516537" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="170.88" r="4.22928"/>
+              <circle cy="151.656730207966" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="256.32" r="4.22928"/>
+              <circle cy="185.784915130435" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="341.76" r="4.22928"/>
+              <circle cy="168.861929091565" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="427.2" r="4.22928"/>
+            </g>
+            <polyline stroke="#6886B4" fill="none" stroke-width="4.22928" points="0.0,88.7208943418453 85.44,83.5007857031586 170.88,47.8259872516537 256.32,149.753554207966 341.76,183.881739130435 427.2,166.958753091565"/>
+            <circle cy="88.7208943418453" style="stroke-width: 4.22928; stroke: #6886B4; fill: #6886B4" cx="0.0" r="4.22928"/>
+            <circle cy="83.5007857031586" style="stroke-width: 4.22928; stroke: #6886B4; fill: #6886B4" cx="85.44" r="4.22928"/>
+            <circle cy="47.8259872516537" style="stroke-width: 4.22928; stroke: #6886B4; fill: #6886B4" cx="170.88" r="4.22928"/>
+            <circle cy="149.753554207966" style="stroke-width: 4.22928; stroke: #6886B4; fill: #6886B4" cx="256.32" r="4.22928"/>
+            <circle cy="183.881739130435" style="stroke-width: 4.22928; stroke: #6886B4; fill: #6886B4" cx="341.76" r="4.22928"/>
+            <circle cy="166.958753091565" style="stroke-width: 4.22928; stroke: #6886B4; fill: #6886B4" cx="427.2" r="4.22928"/>
+          </g>
+          <g class="graph_layer" id="component_graphs_graph_1">
+            <g class="shadow" transform="translate(1.05732, 1.05732)">
+              <polyline stroke="black" fill="transparent" stroke-width="4.22928" style="fill-opacity: 0; stroke-opacity: 0.35" points="0.0,98.1559374853557 85.44,141.440822691306 170.88,84.2410643362499 256.32,35.689129303533 341.76,32.249772007315 427.2,0.0"/>
+              <circle cy="100.059113485356" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="0.0" r="4.22928"/>
+              <circle cy="143.343998691306" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="85.44" r="4.22928"/>
+              <circle cy="86.1442403362499" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="170.88" r="4.22928"/>
+              <circle cy="37.592305303533" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="256.32" r="4.22928"/>
+              <circle cy="34.152948007315" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="341.76" r="4.22928"/>
+              <circle cy="1.903176" style="stroke-width: 4.22928; stroke: black; opacity: 0.35;" cx="427.2" r="4.22928"/>
+            </g>
+            <polyline stroke="#FDD84E" fill="none" stroke-width="4.22928" points="0.0,98.1559374853557 85.44,141.440822691306 170.88,84.2410643362499 256.32,35.689129303533 341.76,32.249772007315 427.2,0.0"/>
+            <circle cy="98.1559374853557" style="stroke-width: 4.22928; stroke: #FDD84E; fill: #FDD84E" cx="0.0" r="4.22928"/>
+            <circle cy="141.440822691306" style="stroke-width: 4.22928; stroke: #FDD84E; fill: #FDD84E" cx="85.44" r="4.22928"/>
+            <circle cy="84.2410643362499" style="stroke-width: 4.22928; stroke: #FDD84E; fill: #FDD84E" cx="170.88" r="4.22928"/>
+            <circle cy="35.689129303533" style="stroke-width: 4.22928; stroke: #FDD84E; fill: #FDD84E" cx="256.32" r="4.22928"/>
+            <circle cy="32.249772007315" style="stroke-width: 4.22928; stroke: #FDD84E; fill: #FDD84E" cx="341.76" r="4.22928"/>
+            <circle cy="0.0" style="stroke-width: 4.22928; stroke: #FDD84E; fill: #FDD84E" cx="427.2" r="4.22928"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="legend" transform="translate(30.0, 46.8)">
+      <rect width="12.96" x="64.8" height="10.8" fill="#6886B4" y="5.4"/>
+      <text font-size="17.28" x="86.4" fill="white" y="17.28">The Best Investor</text>
+      <rect width="12.96" x="280.8" height="10.8" fill="#FDD84E" y="5.4"/>
+      <text font-size="17.28" x="302.4" fill="white" y="17.28">Portfolio Average</text>
+    </g>
+  </g>
+</svg>

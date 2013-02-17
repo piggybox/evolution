@@ -1,0 +1,36 @@
+<h1>Portfolio Managers</h1>
+<%= error_messages_for 'pm' %>
+<br>
+
+<table>
+  <tr>
+  <% for column in Pm.content_columns %>
+    <th>&nbsp <%= column.human_name %></th>
+  <% end %>
+  </tr>
+
+<% for pm in @pms %>
+  <tr>
+  <% for column in Pm.content_columns %>
+    <td style="text-align: left;"><%=h pm.send(column.name) %></td>
+  <% end %>  
+    <td>&nbsp <%= link_to '<img align="absmiddle" alt="Delete" border="0" class="delete" 
+          src="/images/trash.gif" />', { :action => 'destroy', :id => pm },
+    			:confirm => 'Are you sure to delete it?' %>
+    </td>
+  </tr>
+<% end %>
+</table>
+<%= pagination_links_each(@pm_pages, :window_size => 4) do |n|
+    	"[<a href='?page=#{n}'>#{n}</a>]" 
+		end 
+%>
+<br><br>
+<%= button_to("Generate portfolio managers", :controller => "pms_admin",
+                      :action => "generate") %><br>
+<%= button_to("Delete all portfolio managers", {:controller => "pms_admin",
+			:action => "clear_all_pms"}, :confirm => 'Are you sure to delete them all?') %>
+
+
+
+

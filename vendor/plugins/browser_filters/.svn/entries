@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2341"
+   name=""
+   committed-date="2006-10-09T00:45:44.116021Z"
+   url="http://svn.techno-weenie.net/projects/beast/trunk/vendor/plugins/browser_filters"
+   last-author="technoweenie"
+   kind="dir"
+   uuid="567b1171-46fb-0310-a4c9-b4bef9110e78"
+   prop-time="2006-10-19T16:00:28.503382Z"
+   revision="2377"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="2341"
+   name="README"
+   text-time="2006-10-19T16:00:28.513396Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="bf699418ead5ed8c012833609cb44d38"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:28.503382Z"/>
+</wc-entries>

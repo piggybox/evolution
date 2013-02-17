@@ -1,0 +1,30 @@
+<h1>Investors Performance</h1>
+<% unless Ip.count == 0 %>
+<br>
+<table>
+  <tr>
+    <th>Memory</th>
+    <th>&nbsp EAR* %</th>
+    <th>&nbsp Sortino Ratio*</th>
+  </tr>
+
+<% @ips.each do |investor| %>
+  <tr>
+    <td><%= investor.memory %></td>
+    <td><%= "%-5.2f" % (@ip[investor]['ror'] * 100 - 100) %></td>
+    <td><%= "%-5.2f" % (@ip[investor]['sortino']) %></td>
+  </tr>
+<% end %>
+</table>
+<%= pagination_links_each(@pages, :window_size => 4) do |n|
+      "[<a href='?page=#{n}'>#{n}</a>]"
+    end
+%>
+<br><br>
+<%= button_to("Clear all investor performance", {:controller => "investors_admin",
+      :action => "clear_ip"}, :confirm => 'Are you sure?') %><br>
+<li>The Investor performance during the whole benchmark period is only for internal usage.<br>
+<li>EAR = Effective Annual Rate<br>
+<li>Sortino Ratio measures the risk-adjusted return<br>
+<% end %>
+

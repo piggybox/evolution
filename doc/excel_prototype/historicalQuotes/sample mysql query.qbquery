@@ -1,0 +1,4 @@
+﻿SELECT q.`Adj. Close*`, q.`Date`, q.`ROR`, q.`Ticker` FROM `quotes` q
+WHERE q.`Date` = '2000-01-10'
+
+ORDER BY q.`Date`

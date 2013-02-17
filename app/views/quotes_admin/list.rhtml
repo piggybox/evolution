@@ -1,0 +1,23 @@
+<h1>Historical Quotes</h1>
+<br>
+<table>
+  <tr>
+  <% for column in Quote.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for quote in @quotes %>
+  <tr>
+    <% for column in Quote.content_columns %>
+    <td><%=h quote.send(column.name) %>&nbsp </td>
+  <% end %>
+  </tr>
+<% end %>
+</table>
+<%= pagination_links_each(@quote_pages, :window_size => 4) do |n|
+    	"[<a href='?page=#{n}'>#{n}</a>]" 
+		end %>
+<br><br>
+<%= button_to(" Clear all quotes ", {:controller => "quotes_admin",
+			:action => "clear_all"}, :confirm => 'Are you sure to delete them all?') %>

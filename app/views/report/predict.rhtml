@@ -1,0 +1,47 @@
+<h2>Best Investor</h2>
+<% unless Ip.calculate(:count, :id) == 0 %>
+<table>
+  <tr>
+    <th>Memory</th><th>&nbsp EAR* %</th>
+  </tr>
+  <tr>
+    <td><%= @best_investor.memory %></td>
+    <td><%= "%-5.2f" % (@max_performance * 100) %></td>
+  </tr>
+</table>
+<br>
+<li>EAR = Effective Annual Rate
+<br>
+<h2>Selected Portfolio Manager</h2>
+<table>
+  <tr>
+    <th>Memory</th><th>&nbsp Confidence</th>
+  </tr>
+  <tr>
+    <td><%= @final_pm.memory %></td>
+    <td><%= @final_pm.confidence %></td>
+  <tr>
+</table>
+<br>
+<h2>Optimized/Predicted Portfolio Structure</h2>
+<table>
+  <tr>
+    <th>Ticker</th>
+    <th>Company</th>
+    <th>&nbsp Weight %</th>
+  </tr>
+<% for pi in @prediction %>
+<tr>
+  <td style="text-align: left;"><%= pi.ticker %></td>
+  <td style="text-align: left;">&nbsp
+    <%= Profile.find_by_ticker(pi.ticker).name %></td>
+  <td><%= "%5.2f" % pi.fraction %></td>
+</tr>
+<% end %>
+<tr><td></td><td><b>Total</b></td><td><u><b>100.00</b></u></td></tr>
+</table>
+<% end %>
+
+
+
+

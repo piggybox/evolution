@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Evolution Fund</title>
+    <%= stylesheet_link_tag "scaffold", "evolution", 'skins/aqua/theme', :media => "all" %>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <%= javascript_include_tag "prototype", "controls", "effects", "menu", "calendar", "lang/calendar-en", "calendar-setup" %>
+  </head>
+  <body>
+    <div id="banner">
+      <a href="/"><img height=78, width=299, src="/images/logo.png"/></a>
+      <div class="login">
+        <% unless session[:user_id].nil? %>
+            <img align="absmiddle" alt="User" border="0" src="/images/user.gif"/> 
+            <%= User.find(session[:user_id]).name.capitalize %> |
+            <%= link_to("Log out", {:controller => "login", :action => "logout"},
+                :confirm => 'Are you sure to log out?') %>
+        <% else %>
+            <%= link_to "Login", :controller => 'login', :action => 'login' %>
+        <% end %>
+      </div>
+    </div>
+    <div id="columns">
+      <div id="side">
+        <div id="masterdiv">
+          <div class="menutitle" onclick="SwitchMenu('sub1')">
+            <img align="absmiddle" border="0" src="/images/calculator.gif"/>
+            Portfolio</div>
+            <span class="submenu" id="sub1">
+              <img align="absmiddle" border="0" src="/images/nav_bullet.gif"/>
+              <%= link_to("Managment", :controller => "profiles_admin",
+                      :action => "list") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Import data", :controller => "import",
+                      :action => "quote") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Quotes in detail", :controller => "quotes_admin",
+                      :action => "list") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Performance", :controller => "report",
+                      :action => "stock_performance") %><br>
+            </span>
+
+            <div class="menutitle" onclick="SwitchMenu('sub2')">
+            <img align="absmiddle" border="0" src="/images/person2.gif"/>
+            PM</div>
+            <span class="submenu" id="sub2">
+              <%= bullet_icon %>
+              <%= link_to("Management", :controller => "pms_admin",
+                      :action => "index") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Start training", :controller => "evolution",
+                      :action => "train_pms") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Performance", :controller => "report",
+                      :action => "pm_performance") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Hotspot chart", :controller => "report",
+                      :action => "pm_hotspot", :plot_type => '3D') %><br>
+            </span>
+
+          <div class="menutitle" onclick="SwitchMenu('sub3')">
+          <img align="absmiddle" border="0" src="/images/person1.gif"/>
+          Investor</div>
+            <span class="submenu" id="sub3">
+              <%= bullet_icon %>
+              <%= link_to("Management", :controller => "investors_admin",
+                      :action => "index") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Start training", :controller => "evolution",
+                      :action => "train_investors") %><br><hr/>                      
+              <%= bullet_icon %>
+              <%= link_to("Performance", :controller => "report",
+                      :action => "investor_performance") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Timeline chart", :controller => "report",
+                      :action => "investor_timeline", :plot_type => '3D') %><br>
+            </span>
+
+            <div class="menutitle" onclick="SwitchMenu('sub4')">
+            <img align="absmiddle" border="0" src="/images/winner.png"/>
+            Winner</div>
+            <span class="submenu" id="sub4">
+              <%= bullet_icon %>
+              <%= link_to("Prediction", :controller => "report",
+                      :action => "predict") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Benchmark", :controller => "report",
+                      :action => "benchmark") %><br>
+            </span>
+            <div class="menutitle" onclick="SwitchMenu('sub5')">
+              <img align="absmiddle" border="0" src="/images/help.gif"/> 
+            Help</div>
+            <span class="submenu" id="sub5">
+              <%= bullet_icon %>
+              <%= link_to "Tutorial", :controller => 'help' %><br><hr>
+              <%= bullet_icon %>
+              <%= link_to "PowerPoint", :controller => 'help', :action => 'ppt' %><br> 
+            </span>
+            <% unless session[:user_id].nil? %>
+            <div class="menutitle" onclick="SwitchMenu('sub6')">
+            <img align="absmiddle" border="0" src="/images/admin.gif"/>
+            Admin</div>
+            <span class="submenu" id="sub6">
+              <%= bullet_icon %>
+              <%= link_to("Add a user", :controller => "login",
+                      :action => "add_user") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("List users", :controller => "login",
+                      :action => "list_users") %><br><hr/>
+              <%= bullet_icon %>
+              <%= link_to("Initialize category", :controller => "import",
+                      :action => "initialize_category") %><br><hr/>
+            </span>
+            <% end %>
+        </div>
+      </div>
+
+      <div id="main">
+        <% if flash[:notice] -%>
+          <div id="notice"><%= flash[:notice] %></div>
+        <% end -%>
+        <%= @content_for_layout %>
+      </div>
+    </div>
+    <br/>
+    <br/>
+    <div id="footer">
+      <a href="/help/legal">Legal</a> |
+      <a href='/help/privacy'>Privacy</a> | 
+      <a href="/help/contact">Feedback</a> |
+      <a href="/help/about">About</a>
+      <br><br>
+           Build 1.4.16
+      <br>
+    <div>
+  </body>
+</html>

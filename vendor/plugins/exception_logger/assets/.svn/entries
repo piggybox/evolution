@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2341"
+   name=""
+   committed-date="2006-10-09T00:45:44.116021Z"
+   url="http://svn.techno-weenie.net/projects/beast/trunk/vendor/plugins/exception_logger/assets"
+   last-author="technoweenie"
+   kind="dir"
+   uuid="567b1171-46fb-0310-a4c9-b4bef9110e78"
+   revision="2377"/>
+<entry
+   committed-rev="2341"
+   name="style.css"
+   text-time="2006-10-19T16:00:29.534865Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="b275ffebc18746c04b29d740e64111b9"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.504822Z"/>
+<entry
+   committed-rev="2341"
+   name="exception_logger.js"
+   text-time="2006-10-19T16:00:29.534865Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="efbd4dc2d3076dc15797e1a8f1f117c2"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.504822Z"/>
+</wc-entries>

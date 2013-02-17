@@ -1,0 +1,117 @@
+ What'sBest! 7.0 Status Report
+
+
+   Solver memory allocated:   16384
+
+
+   UNSUPPORTED FUNCTION WARNING
+
+   The following cells contain spreadsheet functions that are
+   not defined in What'sBest!.  The numeric values for
+   these cells are taken from the spreadsheet directly
+   without recalculation.
+
+     Data!C71;Data!F71;Data!I71;Data!K71;
+     Data!M71;Data!O71;Data!Q71;Data!S71;
+     Data!U71;Data!W71;Data!Y71;Data!Z71;
+     Optimization!D4;Optimization!D5;Optimization!D6;Optimization!D7;
+     Optimization!D8;Optimization!D9;Optimization!D10;Optimization!D11;
+     Optimization!D12;Optimization!D13;Optimization!B20;Optimization!C20;
+     Optimization!D20;Optimization!E20;Optimization!F20;Optimization!G20;
+     Optimization!H20;Optimization!I20;Optimization!J20;Optimization!K20;
+     Optimization!B21;Optimization!C21;Optimization!D21;Optimization!E21;
+     Optimization!F21;Optimization!G21;Optimization!H21;Optimization!I21;
+     Optimization!J21;Optimization!K21;Optimization!B22;Optimization!C22;
+     Optimization!D22;Optimization!E22;Optimization!F22;Optimization!G22;
+     Optimization!H22;Optimization!I22;Optimization!J22;Optimization!K22;
+     Optimization!B23;Optimization!C23;Optimization!D23;Optimization!E23;
+     Optimization!F23;Optimization!G23;Optimization!H23;Optimization!I23;
+     Optimization!J23;Optimization!K23;Optimization!B24;Optimization!C24;
+     Optimization!D24;Optimization!E24;Optimization!F24;Optimization!G24;
+     Optimization!H24;Optimization!I24;Optimization!J24;Optimization!K24;
+     Optimization!B25;Optimization!C25;Optimization!D25;Optimization!E25;
+     Optimization!F25;Optimization!G25;Optimization!H25;Optimization!I25;
+     Optimization!J25;Optimization!K25;Optimization!B26;Optimization!C26;
+     Optimization!D26;Optimization!E26;Optimization!F26;Optimization!G26;
+     Optimization!H26;Optimization!I26;Optimization!J26;Optimization!K26;
+     Optimization!B27;Optimization!C27;Optimization!D27;Optimization!E27;
+     Optimization!F27;Optimization!G27;Optimization!H27;Optimization!I27;
+     Optimization!J27;Optimization!K27;Optimization!B28;Optimization!C28;
+     Optimization!D28;Optimization!E28;Optimization!F28;Optimization!G28;
+     Optimization!H28;Optimization!I28;Optimization!J28;Optimization!K28;
+     Optimization!B29;Optimization!C29;Optimization!D29;Optimization!E29;
+     Optimization!F29;Optimization!G29;Optimization!H29;Optimization!I29;
+     Optimization!J29;Optimization!K29;'New Markowitz Test'!C55;'New Markowitz Test'!F55;
+     'New Markowitz Test'!I55;'New Markowitz Test'!L55;'New Markowitz Test'!O55;'New Markowitz Test'!R55;
+     'New Markowitz Test'!U55;'New Markowitz Test'!X55;'New Markowitz Test'!AA55;'New Markowitz Test'!AD55;
+     'New Markowitz Test'!AH55;'New Markowitz Test'!AJ55;'New Markowitz Test'!AL55;'New Markowitz Test'!AN55;
+     'New Markowitz Test'!AP55;
+
+
+   BLANK CELL REFERENCE WARNING
+
+   The following cells have been referenced in formulas but
+   are either blank or contain text.  During the solution
+   process their values have been taken as zero.  This message
+   can be turned off with the Reference to blank cell checkbox
+   on the General Options dialog box.
+
+     Data!Z56;Data!Z57;Data!Z58;Data!Z59;
+     Data!Z60;Data!Z61;Data!Z62;Data!Z63;
+     Data!Z64;Data!Z65;Data!Z66;Optimization!E3;
+     'New Markowitz Test'!AH2;'New Markowitz Test'!AH3;'New Markowitz Test'!AH4;'New Markowitz Test'!AH5;
+     'New Markowitz Test'!AL53;
+
+   Solver iteration limit set to:     10000
+   Final linear feasibility tolerance:  0.00001000
+   Nonlinear solver version: Ver. 3.0
+   Quadratic recognition for nlps turned on
+   Nonlinear cell warning has been turned off
+   Blank cell warning has been turned on
+
+   Model before Linearization:
+
+     CLASSIFICATION STATISTICS      Original
+     ---------------------------------------------------
+     Numeric                           5236
+     Adjustable                          10
+     Constraints                         11
+     Integers                             0
+     Optimizable                        147
+
+   Linearization Enabled:
+      Big M parameter:   60000.
+      Delta parameter:  0.00000E+00
+
+   Model Type: NONLINEAR
+
+   The smallest and largest coefficients in the model were:
+
+              0.20947248E-03            1.0000000
+
+   The smallest coefficient occurred in constraint  cell: Optimization!C51
+                                     on optimizable cell: Optimization!B42
+
+   The largest  coefficient occurred in constraint  cell: Optimization!E4
+                                     on optimizable cell: Optimization!E4
+
+
+     CLASSIFICATION STATISTICS      Current /    Maximum
+     ---------------------------------------------------
+     Numeric                           5236 /      10000
+     Adjustable                          10 /       2000
+     Constraints                         11 /       1000
+     Integers                             0 /        200
+     Optimizable                        147
+     Nonlinear                          122 /        200
+     Coefficients                       481
+
+   Tries: 73 Infeasibility: .0000296 Objective: .3957592
+
+   Solution Status: LOCALLY OPTIMAL.
+   Optimality Cond: SATISFIED.
+
+   Solution Time:    0 Hours  0 Minutes  7 Seconds
+
+
+   End of report.

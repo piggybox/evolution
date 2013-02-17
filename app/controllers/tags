@@ -1,0 +1,1051 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+*	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def *(amount)$/;"	f	class:Globalize.Product.Currency
++	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def +(other_money)$/;"	f	class:Globalize.Product.Currency
+-	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def -(other_money)$/;"	f	class:Globalize.Product.Currency
+/	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^      def \/(arg)$/;"	f	class:Globalize.CoreExtensions.String
+/	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def \/(amount)$/;"	f	class:Globalize.Product.Currency
+<=>	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def <=>(other); @string <=> other.to_s; end$/;"	f	class:ActiveSupport.Chars
+<=>	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def <=>(other)$/;"	f	class:Globalize.Product.Currency
+==	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^          def ==(obj)$/;"	f	class:RailsStudio.Acts.StateMachine.SupportingClasses.StateTransition
+==	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def ==(other)$/;"	f	class:Globalize.Language
+===	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^          def ===(other)$/;"	f	class:ActiveSupport.UnicodeDatabase.initialize
+=~	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def =~(other)$/;"	f	class:ActiveSupport.Chars
+ActMacro	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^      module ActMacro$/;"	m	class:RailsStudio.Acts.StateMachine
+ActionMailer	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_mailer.rb	/^module ActionMailer # :nodoc:$/;"	m
+ActionMailerTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\action_mailer_test.rb	/^class ActionMailerTest < Test::Unit::TestCase$/;"	c
+ActionView	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_view.rb	/^module ActionView # :nodoc: all$/;"	m
+ActionView	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\date_helper.rb	/^module ActionView$/;"	m
+ActiveRecord	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^class ActiveRecord::Base # :nodoc:$/;"	c
+ActiveRecord	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^module ActiveRecord # :nodoc:$/;"	m
+ActiveSupport	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\core_ext\string\unicode.rb	/^module ActiveSupport #:nodoc:$/;"	m
+ActiveSupport	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte.rb	/^module ActiveSupport::Multibyte$/;"	m
+ActiveSupport	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^module ActiveSupport::Multibyte$/;"	m
+ActiveSupport	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^module ActiveSupport::Multibyte::Handlers #:nodoc:$/;"	m
+ActiveSupport	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\passthru_handler.rb	/^class ActiveSupport::Multibyte::Handlers::PassthruHandler$/;"	c
+ActiveSupport	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^module ActiveSupport::Multibyte::Handlers$/;"	m
+ActiveSupport	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler_proc.rb	/^class ActiveSupport::Multibyte::Handlers::UTF8HandlerProc < ActiveSupport::Multibyte::Handlers::UTF8Handler$/;"	c
+Acts	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^  module Acts                        #:nodoc:$/;"	m	class:RailsStudio
+ActsAsStateMachineTest	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^class ActsAsStateMachineTest < Test::Unit::TestCase$/;"	c
+AdminController	C:\Rails\Application\evolution\_darcs\current\app\controllers\admin_controller.rb	/^class AdminController < ApplicationController$/;"	c
+AdminController	C:\Rails\Application\evolution\app\controllers\admin_controller.rb	/^class AdminController < ApplicationController$/;"	c
+AdminHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\admin_helper.rb	/^module AdminHelper$/;"	m
+ApplicationController	C:\Rails\Application\evolution\_darcs\current\app\controllers\application.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationController	C:\Rails\Application\evolution\app\controllers\application.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationHelper	C:\Rails\Application\evolution\app\helpers\application_helper.rb	/^module ApplicationHelper$/;"	m
+AssetPackage	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^  class AssetPackage$/;"	c	class:Synthesis
+AssetPackageHelper	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package_helper.rb	/^  module AssetPackageHelper$/;"	m	class:Synthesis
+AssetPackageHelperProductionTest	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^class AssetPackageHelperProductionTest < Test::Unit::TestCase$/;"	c
+AssetPackageHelperProductionTest	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^class AssetPackageHelperProductionTest < Test::Unit::TestCase$/;"	c
+AssetPackagerTest	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_packager_test.rb	/^class AssetPackagerTest < Test::Unit::TestCase$/;"	c
+AsyncProc	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.c	/^DWORD WINAPI AsyncProc( char* scriptCopy ) $/;"	f
+Base	C:\Rails\Application\evolution\gnuplot\base.rb	/^  class Base$/;"	c	class:Gruff
+Base	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_mailer.rb	/^  class Base$/;"	c	class:ActionMailer
+Base	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_view.rb	/^  class Base$/;"	c	class:ActionView
+BehaviourCaching	C:\Rails\Application\evolution\config\environment.rb	/^  module BehaviourCaching$/;"	m	class:UJS
+BrowserFilters	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\browser_filters.rb	/^module BrowserFilters$/;"	m
+CGI	C:\Rails\Application\evolution\vendor\plugins\dynamic_session\lib\dynamic_session_expiry.rb	/^class CGI$/;"	c
+Category	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^        class Category < ActiveRecord::Base$/;"	c	class:TranslateClassMethods.Product
+Category	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  class Category < ActiveRecord::Base$/;"	c	class:TranslationTest
+Chars	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^  class Chars$/;"	c	class:ActiveSupport
+CharsTest	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^class CharsTest < Test::Unit::TestCase$/;"	c
+ClassMethods	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^      module ClassMethods$/;"	m	class:RailsStudio.Acts.StateMachine
+ClassMethods	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^  module ClassMethods$/;"	m	class:ExceptionLoggable
+ClassMethods	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^    module ClassMethods$/;"	m	class:Globalize.DbTranslate
+ClassMethods	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^    module ClassMethods$/;"	m	class:ActiveRecord.Validations
+Codepoint	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^  class Codepoint #:nodoc:$/;"	c	class:ActiveSupport
+ColorlistExhaustedException	C:\Rails\Application\evolution\gnuplot\base.rb	/^  class ColorlistExhaustedException < StandardError; end$/;"	c	class:Gruff
+ConformanceTest	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^module ConformanceTest$/;"	m
+ConformanceTestProc	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^  class ConformanceTestProc < Test::Unit::TestCase$/;"	c
+ConformanceTestPure	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^class ConformanceTestPure < Test::Unit::TestCase$/;"	c
+ControllerClassMethods	C:\Rails\Application\evolution\config\environment.rb	/^    module ControllerClassMethods$/;"	m	class:UJS.BehaviourCaching
+Conversation	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\fixtures\conversation.rb	/^class Conversation < ActiveRecord::Base$/;"	c
+CoreExtTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^class CoreExtTest < Test::Unit::TestCase$/;"	c
+CoreExtensions	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\core_ext\string\unicode.rb	/^  module CoreExtensions #:nodoc:$/;"	m	class:ActiveSupport
+CoreExtensions	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^  module CoreExtensions # :nodoc:$/;"	m	class:Globalize
+Country	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\country.rb	/^  class Country < ActiveRecord::Base # :nodoc:$/;"	c	class:Globalize
+CreatePortfolios	C:\Rails\Application\evolution\db\migrate\001_create_portfolios.rb	/^class CreatePortfolios < ActiveRecord::Migration$/;"	c
+Currency	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^  class Currency$/;"	c	class:Globalize.Product
+CurrencyError	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    class CurrencyError < StandardError# :nodoc:$/;"	c	class:Globalize.Product.Currency
+CurrencyTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^class CurrencyTest < Test::Unit::TestCase$/;"	c
+Date	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^    module Date$/;"	m	class:Globalize
+DateHelper	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\date_helper.rb	/^    module DateHelper # :nodoc:$/;"	m	class:ActionView.Helpers
+DateHelperTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^class DateHelperTest < Test::Unit::TestCase$/;"	c
+DbTranslate	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^  module DbTranslate  # :nodoc:$/;"	m	class:Globalize
+DbViewTranslator	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^  class DbViewTranslator $/;"	c	class:Globalize
+DllMain	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.c	/^BOOL APIENTRY DllMain( HANDLE hModule, $/;"	f
+Downloader	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^class Downloader$/;"	c
+Draw	C:\Rails\Application\evolution\gnuplot\base.rb	/^  class Draw$/;"	c	class:Magick
+EncodingError	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^  class EncodingError < ArgumentError; end$/;"	c	class:ActiveSupport
+Errors	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^  class Errors$/;"	c	class:ActiveRecord
+EvolutionController	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^class EvolutionController < ApplicationController$/;"	c
+EvolutionController	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^class EvolutionController < ApplicationController$/;"	c
+EvolutionHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\evolution_helper.rb	/^module EvolutionHelper$/;"	m
+ExceptionLoggable	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^module ExceptionLoggable$/;"	m
+ExceptionLoggerTest	C:\Rails\Application\evolution\vendor\plugins\exception_logger\test\exception_logger_test.rb	/^class ExceptionLoggerTest < Test::Unit::TestCase$/;"	c
+ExceptionMigrationGenerator	C:\Rails\Application\evolution\vendor\plugins\exception_logger\generators\exception_migration\exception_migration_generator.rb	/^class ExceptionMigrationGenerator < Rails::Generator::NamedBase$/;"	c
+Float	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^    module Float$/;"	m	class:Globalize.CoreExtensions
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^module Globalize # :nodoc:$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^module Globalize # :nodoc:$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^module Globalize # :nodoc:$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^module Globalize$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\rfc_3066.rb	/^module Globalize $/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\country.rb	/^module Globalize$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^module Globalize$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^module Globalize$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\model_translation.rb	/^module Globalize$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\translation.rb	/^module Globalize # :nodoc:$/;"	m
+Globalize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\view_translation.rb	/^module Globalize$/;"	m
+GlobalizeGenerator	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\globalize_generator.rb	/^class GlobalizeGenerator < MigrationGenerator$/;"	c
+GlobalizeMailer	C:\Rails\Application\evolution\vendor\plugins\globalize\test\action_mailer_test.rb	/^  class GlobalizeMailer < ActionMailer::Base$/;"	c	class:ActionMailerTest
+GlobalizeMigration	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\templates\migration.rb	/^class GlobalizeMigration < ActiveRecord::Migration$/;"	c
+Gruff	C:\Rails\Application\evolution\gnuplot\base.rb	/^module Gruff$/;"	m
+HelpController	C:\Rails\Application\evolution\_darcs\current\app\controllers\help_controller.rb	/^class HelpController < ApplicationController$/;"	c
+HelpController	C:\Rails\Application\evolution\app\controllers\help_controller.rb	/^class HelpController < ApplicationController$/;"	c
+Helpers	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\date_helper.rb	/^  module Helpers$/;"	m	class:ActionView
+ImportController	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^class ImportController < ApplicationController$/;"	c
+ImportController	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^class ImportController < ApplicationController$/;"	c
+ImportHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\import_helper.rb	/^module ImportHelper$/;"	m
+Industry	C:\Rails\Application\evolution\app\models\industry.rb	/^class Industry < ActiveRecord::Base$/;"	c
+IndustryTest	C:\Rails\Application\evolution\test\unit\industry_test.rb	/^class IndustryTest < Test::Unit::TestCase$/;"	c
+InstanceMethods	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^      module InstanceMethods$/;"	m	class:RailsStudio.Acts.StateMachine
+Integer	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^    module Integer$/;"	m	class:Globalize.CoreExtensions
+InvalidState	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^      class InvalidState < Exception #:nodoc:$/;"	c	class:RailsStudio.Acts.StateMachine
+InvestersAdminHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\investers_admin_helper.rb	/^module InvestersAdminHelper$/;"	m
+Investor	C:\Rails\Application\evolution\_darcs\current\app\models\investor.rb	/^class Investor < ActiveRecord::Base$/;"	c
+Investor	C:\Rails\Application\evolution\app\models\investor.rb	/^class Investor < ActiveRecord::Base$/;"	c
+InvestorsAdminController	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^class InvestorsAdminController < ApplicationController$/;"	c
+InvestorsAdminController	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^class InvestorsAdminController < ApplicationController$/;"	c
+InvestorsAdminHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\investors_admin_helper.rb	/^module InvestorsAdminHelper$/;"	m
+Ip	C:\Rails\Application\evolution\_darcs\current\app\models\ip.rb	/^class Ip < ActiveRecord::Base$/;"	c
+Ip	C:\Rails\Application\evolution\app\models\ip.rb	/^class Ip < ActiveRecord::Base$/;"	c
+J	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^create table J ($/;"	t
+JASYNC_API	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.h	10;"	d
+JASYNC_API	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.h	8;"	d
+JASYNC_CALL	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.h	13;"	d
+JDLLCALL	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.c	37;"	d	file:
+JID	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^	JID   char(5) not null primary key,$/;"	F
+Language	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^  class Language < ActiveRecord::Base # :nodoc:$/;"	c	class:Globalize
+LinkPrefetchingBlock	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\link_prefetching_block.rb	/^module LinkPrefetchingBlock$/;"	m
+LoadJDll	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.c	/^int LoadJDll(void)$/;"	f
+Locale	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^  class Locale$/;"	c	class:Globalize
+LocaleTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\locale_test.rb	/^class LocaleTest < Test::Unit::TestCase$/;"	c
+LoggedException	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^class LoggedException < ActiveRecord::Base$/;"	c
+LoggedExceptionsController	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_controller.rb	/^class LoggedExceptionsController < ActionController::Base$/;"	c
+LoggedExceptionsHelper	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_helper.rb	/^module LoggedExceptionsHelper$/;"	m
+LoginController	C:\Rails\Application\evolution\_darcs\current\app\controllers\login_controller.rb	/^class LoginController < ApplicationController$/;"	c
+LoginController	C:\Rails\Application\evolution\app\controllers\login_controller.rb	/^class LoginController < ApplicationController$/;"	c
+LoginHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\login_helper.rb	/^module LoginHelper$/;"	m
+MM_openBrWindow	C:\Rails\Application\evolution\doc\time series analysis\MIT OpenCourseWare  Economics  14_384 Time Series Analysis, Fall 2002  Syllabus.files\MITOPE~1.HTM	/^function MM_openBrWindow(theURL,winName,features) { $/;"	f
+Magick	C:\Rails\Application\evolution\gnuplot\base.rb	/^module Magick$/;"	m
+Manufacturer	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  class Manufacturer < ActiveRecord::Base$/;"	c	class:TranslationTest
+ModelTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\model_test.rb	/^class ModelTest < Test::Unit::TestCase$/;"	c
+ModelTranslation	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\model_translation.rb	/^  class ModelTranslation < Translation # :nodoc:$/;"	c	class:Globalize
+NoBaseLanguageError	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^  class NoBaseLanguageError < StandardError; end$/;"	c	class:Globalize
+NoInitialState	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^      class NoInitialState < Exception #:nodoc:$/;"	c	class:RailsStudio.Acts.StateMachine
+Object	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^    module Object$/;"	m	class:Globalize.CoreExtensions
+P	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^create table P ($/;"	t
+PIC	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^create table PIC ($/;"	t
+PICNAME	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^	PICNAME varchar(128) not null primary key,$/;"	F
+PID	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^	PID    char(5)     not null,$/;"	F
+Person	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\fixtures\person.rb	/^class Person < ActiveRecord::Base$/;"	c
+Pi	C:\Rails\Application\evolution\_darcs\current\app\models\pi.rb	/^class Pi < ActiveRecord::Base$/;"	c
+Pi	C:\Rails\Application\evolution\app\models\pi.rb	/^class Pi < ActiveRecord::Base$/;"	c
+Pm	C:\Rails\Application\evolution\_darcs\current\app\models\pm.rb	/^class Pm < ActiveRecord::Base$/;"	c
+Pm	C:\Rails\Application\evolution\app\models\pm.rb	/^class Pm < ActiveRecord::Base$/;"	c
+Pmp	C:\Rails\Application\evolution\_darcs\current\app\models\pmp.rb	/^class Pmp < ActiveRecord::Base$/;"	c
+Pmp	C:\Rails\Application\evolution\app\models\pmp.rb	/^class Pmp < ActiveRecord::Base$/;"	c
+PmsAdminController	C:\Rails\Application\evolution\_darcs\current\app\controllers\pms_admin_controller.rb	/^class PmsAdminController < ApplicationController$/;"	c
+PmsAdminController	C:\Rails\Application\evolution\app\controllers\pms_admin_controller.rb	/^class PmsAdminController < ApplicationController$/;"	c
+PmsAdminHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\pms_admin_helper.rb	/^module PmsAdminHelper$/;"	m
+Portfolio	C:\Rails\Application\evolution\_darcs\current\app\models\portfolio.rb	/^class Portfolio < ActiveRecord::Base$/;"	c
+Portfolio	C:\Rails\Application\evolution\app\models\portfolio.rb	/^class Portfolio < ActiveRecord::Base$/;"	c
+PortfolioTest	C:\Rails\Application\evolution\test\unit\portfolio_test.rb	/^class PortfolioTest < Test::Unit::TestCase$/;"	c
+PortfoliosAdminHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\portfolios_admin_helper.rb	/^module PortfoliosAdminHelper$/;"	m
+Product	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^            class Product < ActiveRecord::Base$/;"	c	class:Globalize.DbTranslate.ClassMethods
+Product	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^        class Product < ActiveRecord::Base$/;"	c	class:TranslateClassMethods
+Product	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^        class Product < ActiveRecord::Base$/;"	c
+Product	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    class Product < ActiveRecord::Base$/;"	c	class:Globalize
+Product	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  class Product < ActiveRecord::Base$/;"	c	class:TranslationTest
+Product	C:\Rails\Application\evolution\vendor\plugins\globalize\test\validation_test.rb	/^  class Product < ActiveRecord::Base$/;"	c	class:ValidationTest
+Profile	C:\Rails\Application\evolution\_darcs\current\app\models\profile.rb	/^class Profile < ActiveRecord::Base$/;"	c
+Profile	C:\Rails\Application\evolution\app\models\profile.rb	/^class Profile < ActiveRecord::Base$/;"	c
+ProfilesAdminController	C:\Rails\Application\evolution\_darcs\current\app\controllers\profiles_admin_controller.rb	/^class ProfilesAdminController < ApplicationController$/;"	c
+ProfilesAdminController	C:\Rails\Application\evolution\app\controllers\profiles_admin_controller.rb	/^class ProfilesAdminController < ApplicationController$/;"	c
+ProfilesAdminHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\profiles_admin_helper.rb	/^module ProfilesAdminHelper$/;"	m
+QueryTrace	C:\Rails\Application\evolution\vendor\plugins\query_trace\lib\query_trace.rb	/^module QueryTrace$/;"	m
+Quote	C:\Rails\Application\evolution\_darcs\current\app\models\quote.rb	/^class Quote < ActiveRecord::Base$/;"	c
+Quote	C:\Rails\Application\evolution\app\models\quote.rb	/^class Quote < ActiveRecord::Base$/;"	c
+QuotesAdminController	C:\Rails\Application\evolution\_darcs\current\app\controllers\quotes_admin_controller.rb	/^class QuotesAdminController < ApplicationController$/;"	c
+QuotesAdminController	C:\Rails\Application\evolution\app\controllers\quotes_admin_controller.rb	/^class QuotesAdminController < ApplicationController$/;"	c
+QuotesAdminHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\quotes_admin_helper.rb	/^module QuotesAdminHelper$/;"	m
+RFC_3066	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\rfc_3066.rb	/^  class RFC_3066 # :nodoc:$/;"	c	class:Globalize
+RailsStudio	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^module RailsStudio                   #:nodoc:$/;"	m
+ReportController	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^class ReportController < ApplicationController$/;"	c
+ReportController	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^class ReportController < ApplicationController$/;"	c
+ReportHelper	C:\Rails\Application\evolution\_darcs\current\app\helpers\report_helper.rb	/^module ReportHelper$/;"	m
+S	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^create table S ($/;"	t
+SID	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^	SID    char(5)     not null,$/;"	F
+SID	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^	SID char(5) not null references S(SID) on delete restrict,$/;"	F
+SID	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^	SID char(5) not null,$/;"	F
+SP	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^create table SP ($/;"	t
+SPJ	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^create table SPJ ($/;"	t
+SafariUnicodeFix	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\safari_unicode_fix.rb	/^module SafariUnicodeFix$/;"	m
+Sector	C:\Rails\Application\evolution\app\models\sector.rb	/^class Sector < ActiveRecord::Base$/;"	c
+SectorTest	C:\Rails\Application\evolution\test\unit\sector_test.rb	/^class SectorTest < Test::Unit::TestCase$/;"	c
+Session	C:\Rails\Application\evolution\vendor\plugins\dynamic_session\lib\dynamic_session_expiry.rb	/^  class Session$/;"	c	class:CGI
+StateMachine	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^    module StateMachine              #:nodoc:$/;"	m	class:RailsStudio.Acts
+StateTransition	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        class StateTransition$/;"	c	class:RailsStudio.Acts.StateMachine.SupportingClasses
+String	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\core_ext\string.rb	/^class String #:nodoc:$/;"	c
+String	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\core_ext\string\unicode.rb	/^    module String #:nodoc:$/;"	m	class:ActiveSupport.CoreExtensions
+String	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^class String$/;"	c
+String	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^class String$/;"	c
+String	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^    module String$/;"	m	class:Globalize.CoreExtensions
+SupportingClasses	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^      module SupportingClasses$/;"	m	class:RailsStudio.Acts.StateMachine
+SwitchMenu	C:\Rails\Application\evolution\_darcs\current\public\javascripts\menu.js	/^function SwitchMenu(obj){$/;"	f
+SwitchMenu	C:\Rails\Application\evolution\public\javascripts\menu.js	/^function SwitchMenu(obj){$/;"	f
+Symbol	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^    module Symbol$/;"	m	class:Globalize.CoreExtensions
+Synthesis	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^module Synthesis$/;"	m
+Synthesis	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package_helper.rb	/^module Synthesis$/;"	m
+Test	C:\Rails\Application\evolution\_darcs\current\test\test_helper.rb	/^class Test::Unit::TestCase$/;"	c
+Test	C:\Rails\Application\evolution\test\test_helper.rb	/^class Test::Unit::TestCase$/;"	c
+Test	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\test_helper.rb	/^class Test::Unit::TestCase #:nodoc:$/;"	c
+TestController	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_picking_test.rb	/^  class TestController < ActionView::Base$/;"	c	class:ViewPickingTest
+TestStandardData	C:\Rails\Application\evolution\vendor\plugins\globalize\test\test_standard_data.rb	/^class TestStandardData < Test::Unit::TestCase$/;"	c
+Time	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^    module Time$/;"	m	class:Globalize.CoreExtensions
+TransitionCollector	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        class TransitionCollector$/;"	c	class:RailsStudio.Acts.StateMachine.SupportingClasses
+TranslateClassMethods	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^    module TranslateClassMethods$/;"	m
+TranslateObjectMethods	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^    module TranslateObjectMethods # :nodoc: all$/;"	m
+Translation	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\translation.rb	/^  class Translation < ActiveRecord::Base  # :nodoc:$/;"	c	class:Globalize
+TranslationTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^class TranslationTest < Test::Unit::TestCase$/;"	c
+TranslationTrampleError	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^  class TranslationTrampleError < ActiveRecord::ActiveRecordError; end$/;"	c	class:Globalize
+UJS	C:\Rails\Application\evolution\config\environment.rb	/^module UJS$/;"	m
+UTF8Handler	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^  class UTF8Handler$/;"	c	class:ActiveSupport
+UTF8HandlingTest	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^module UTF8HandlingTest$/;"	m
+UTF8HandlingTestProc	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  class UTF8HandlingTestProc < Test::Unit::TestCase$/;"	c	class:UTF8HandlingTest
+UTF8HandlingTestPure	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^class UTF8HandlingTestPure < Test::Unit::TestCase$/;"	c	class:UTF8HandlingTest
+Unicode	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\core_ext\string\unicode.rb	/^      module Unicode$/;"	m	class:ActiveSupport.CoreExtensions.String
+UnicodeContentType	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\unicode_content_type.rb	/^module UnicodeContentType$/;"	m
+UnicodeDatabase	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^  class UnicodeDatabase #:nodoc:$/;"	c	class:ActiveSupport
+UnicodeDatabase	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^  class UnicodeDatabase #:nodoc:$/;"	c	class:ActiveSupport
+UnicodeTableGenerator	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^  class UnicodeTableGenerator #:nodoc:$/;"	c	class:ActiveSupport
+User	C:\Rails\Application\evolution\_darcs\current\app\models\user.rb	/^class User < ActiveRecord::Base$/;"	c
+User	C:\Rails\Application\evolution\app\models\user.rb	/^class User < ActiveRecord::Base$/;"	c
+ValidationTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\validation_test.rb	/^class ValidationTest < Test::Unit::TestCase$/;"	c
+Validations	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^  module Validations # :nodoc: all$/;"	m	class:ActiveRecord
+ViewDebugHelper	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^module ViewDebugHelper$/;"	m
+ViewPickingTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_picking_test.rb	/^class ViewPickingTest < Test::Unit::TestCase$/;"	c
+ViewTranslation	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\view_translation.rb	/^  class ViewTranslation < Translation # :nodoc:$/;"	c	class:Globalize
+ViewTranslationTest	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^class ViewTranslationTest < Test::Unit::TestCase$/;"	c
+WID	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^	WID  integer not null primary key,$/;"	F
+WIN32_LEAN_AND_MEAN	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.c	6;"	d	file:
+WORDS	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^create table WORDS ($/;"	t
+WVAL	C:\Rails\Application\evolution\j\addons\sqlite\date_ddl.sql	/^	WVAL varchar(128) );$/;"	F
+WrongLanguageError	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^  class WrongLanguageError < ActiveRecord::ActiveRecordError$/;"	c	class:Globalize
+[]	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^    def [](index); @codepoints[index]; end$/;"	f	class:ActiveSupport.UnicodeDatabase
+_	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^      def _(str, default = nil, arg = nil)$/;"	f	class:Globalize.CoreExtensions.Object
+__doPostBack	C:\Rails\Application\evolution\doc\time series analysis\MIT OpenCourseWare  Economics  14_384 Time Series Analysis, Fall 2002  Syllabus.files\MITOPE~1.HTM	/^	function __doPostBack(eventTarget, eventArgument) {$/;"	f
+abort	C:\Rails\Application\evolution\_darcs\current\public\javascripts\prototype.js	/^    function abort(message) { throw 'Parse error in selector: ' + message; }$/;"	f
+abort	C:\Rails\Application\evolution\public\javascripts\prototype.js	/^    function abort(message) { throw 'Parse error in selector: ' + message; }$/;"	f
+abort	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\assets\javascripts\prototype.js	/^    function abort(message) { throw 'Parse error in selector: ' + message; }$/;"	f
+access_denied_with_basic_auth	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_controller.rb	/^    def access_denied_with_basic_auth$/;"	f	class:LoggedExceptionsController
+action	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\jsmin.rb	/^def action(a)$/;"	f
+active	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.active; @@active end$/;"	F	class:Globalize.Locale
+active	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.active?; !@@active.nil? end$/;"	F	class:Globalize.Locale
+acts_as_state_machine	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def acts_as_state_machine(opts)$/;"	f	class:RailsStudio.Acts.StateMachine.ActMacro
+actualized_return	C:\Rails\Application\evolution\_darcs\current\app\models\pmp.rb	/^  def self.actualized_return(pmp, last_day, pm)$/;"	F	class:Pmp
+actualized_return	C:\Rails\Application\evolution\app\models\pmp.rb	/^  def self.actualized_return(pmp, last_day, pm)$/;"	F	class:Pmp
+add	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def add(msg)$/;"	f	class:ViewDebugHelper.popup_header.popup_data
+add	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^    def add(attribute, msg = @@default_error_messages[:invalid], num = nil)$/;"	f	class:ActiveRecord.Errors
+add_color	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def add_color(colorname)$/;"	f	class:Gruff.Base
+add_industry	C:\Rails\Application\evolution\_darcs\current\app\controllers\profiles_admin_controller.rb	/^  def add_industry$/;"	f	class:ProfilesAdminController
+add_industry	C:\Rails\Application\evolution\app\controllers\profiles_admin_controller.rb	/^  def add_industry$/;"	f	class:ProfilesAdminController
+add_on_boundary_breaking	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^    def add_on_boundary_breaking(attributes, range, $/;"	f	class:ActiveRecord.Errors
+add_stock	C:\Rails\Application\evolution\_darcs\current\app\controllers\profiles_admin_controller.rb	/^  def add_stock                                             $/;"	f	class:ProfilesAdminController
+add_stock	C:\Rails\Application\evolution\app\controllers\profiles_admin_controller.rb	/^  def add_stock                                             $/;"	f	class:ProfilesAdminController
+add_to_base	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^    def add_to_base(msg, num = nil)$/;"	f	class:ActiveRecord.Errors
+add_user	C:\Rails\Application\evolution\_darcs\current\app\controllers\login_controller.rb	/^  def add_user$/;"	f	class:LoginController
+add_user	C:\Rails\Application\evolution\app\controllers\login_controller.rb	/^  def add_user$/;"	f	class:LoginController
+adjust_currency	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def adjust_currency$/;"	f	class:ImportController
+adjust_currency	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def adjust_currency$/;"	f	class:ImportController
+after_create	C:\Rails\Application\evolution\_darcs\current\app\models\user.rb	/^	def after_create$/;"	f	class:User
+after_create	C:\Rails\Application\evolution\app\models\user.rb	/^	def after_create$/;"	f	class:User
+after_initialize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def after_initialize$/;"	f	class:Globalize.Language
+always_true	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\fixtures\conversation.rb	/^  def always_true$/;"	f	class:Conversation
+amount	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def amount(unlocalized = false, force_cents = false)$/;"	f	class:Globalize.Product.Currency
+analyze_result	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def analyze_result(pm, last_day)$/;"	f	class:EvolutionController
+analyze_result	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def analyze_result(pm, last_day)$/;"	f	class:EvolutionController
+annotate_scaled	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def annotate_scaled(img, width, height, x, y, text, scale)$/;"	f	class:Magick.Draw
+append	C:\Rails\Application\evolution\_darcs\current\app\controllers\quotes_admin_controller.rb	/^  def append$/;"	f	class:QuotesAdminController
+append	C:\Rails\Application\evolution\app\controllers\quotes_admin_controller.rb	/^  def append$/;"	f	class:QuotesAdminController
+append_localized_parts	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_mailer.rb	/^      def append_localized_parts$/;"	f	class:ActionMailer.Base
+async	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.c	/^JASYNC_API int JASYNC_CALL async(char *script)$/;"	f
+attributes_with_quotes	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^        def attributes_with_quotes(include_primary_key = true)$/;"	f	class:TranslateObjectMethods
+authorize	C:\Rails\Application\evolution\_darcs\current\app\controllers\application.rb	/^	def authorize$/;"	f	class:ApplicationController
+authorize	C:\Rails\Application\evolution\app\controllers\application.rb	/^	def authorize$/;"	f	class:ApplicationController
+backtrace=	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^  def backtrace=(backtrace)$/;"	f
+banner	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\globalize_generator.rb	/^  def banner$/;"	f	class:GlobalizeGenerator
+base	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.base?$/;"	F	class:Globalize.Locale
+base_language	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.base_language $/;"	F	class:Globalize.Locale
+before_create	C:\Rails\Application\evolution\_darcs\current\app\models\user.rb	/^	def before_create$/;"	f	class:User
+before_create	C:\Rails\Application\evolution\app\models\user.rb	/^	def before_create$/;"	f	class:User
+benchmark	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def benchmark$/;"	f	class:ReportController
+benchmark	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def benchmark$/;"	f	class:ReportController
+benchmark_chart	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def benchmark_chart$/;"	f	class:ReportController
+best_investor	C:\Rails\Application\evolution\_darcs\current\app\models\ip.rb	/^	def self.best_investor(rfr)$/;"	F	class:Ip
+best_investor	C:\Rails\Application\evolution\app\models\ip.rb	/^	def self.best_investor(rfr)$/;"	F	class:Ip
+best_pm	C:\Rails\Application\evolution\_darcs\current\app\models\pmp.rb	/^  def self.best_pm(ps, pe)$/;"	F	class:Pmp
+best_pm	C:\Rails\Application\evolution\app\models\pmp.rb	/^  def self.best_pm(ps, pe)$/;"	F	class:Pmp
+build	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def build$/;"	f	class:Synthesis
+build_all	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def self.build_all$/;"	F	class:Synthesis.AssetPackage
+build_css_expected_string	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def build_css_expected_string(*sources)$/;"	f	class:AssetPackageHelperProductionTest.setup
+build_css_expected_string	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def build_css_expected_string(*sources)$/;"	f	class:AssetPackageHelperProductionTest.setup
+build_file_list	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def self.build_file_list(path, extension)$/;"	F	class:Synthesis
+build_js_expected_string	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def build_js_expected_string(*sources)$/;"	f	class:AssetPackageHelperProductionTest.setup
+build_js_expected_string	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def build_js_expected_string(*sources)$/;"	f	class:AssetPackageHelperProductionTest.setup
+bullet_icon	C:\Rails\Application\evolution\app\helpers\application_helper.rb	/^  def bullet_icon$/;"	f	class:ApplicationHelper
+cache_add	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def cache_add(key, language, idx, translation)$/;"	f	class:Globalize.DbViewTranslator
+cache_clear	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def cache_clear$/;"	f	class:Globalize.DbViewTranslator
+cache_count	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^    def cache_count$/;"	f	class:Globalize.DbViewTranslator
+cache_fetch	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def cache_fetch(key, language, idx)$/;"	f	class:Globalize.DbViewTranslator
+cache_hit_ratio	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def cache_hit_ratio$/;"	f	class:Globalize.DbViewTranslator
+cache_key	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def cache_key(key, language, idx)$/;"	f	class:Globalize.DbViewTranslator
+cache_reset	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^    def cache_reset$/;"	f	class:Globalize.DbViewTranslator
+caches_behaviour	C:\Rails\Application\evolution\config\environment.rb	/^      def caches_behaviour(*actions)$/;"	f	class:UJS.BehaviourCaching.ControllerClassMethods
+calculate_ror	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def calculate_ror(ticker)$/;"	f	class:ImportController
+calculate_ror	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def calculate_ror(ticker)$/;"	f	class:ImportController
+can_close?	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\fixtures\conversation.rb	/^  def can_close?$/;"	f	class:Conversation
+capitalize	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def capitalize(str)$/;"	f	class:ActiveSupport.UTF8Handler
+cent_part	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^      def cent_part$/;"	f	class:Globalize.Product.Currency
+chars	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\core_ext\string\unicode.rb	/^        def chars$/;"	f	class:ActiveSupport.CoreExtensions.String.Unicode
+clean_quotes	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def clean_quotes$/;"	f	class:ImportController
+clean_quotes	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def clean_quotes$/;"	f	class:ImportController
+clean_trace	C:\Rails\Application\evolution\vendor\plugins\query_trace\lib\query_trace.rb	/^  def clean_trace(trace)$/;"	f	class:QueryTrace
+clear_all	C:\Rails\Application\evolution\_darcs\current\app\controllers\profiles_admin_controller.rb	/^  def clear_all$/;"	f	class:ProfilesAdminController
+clear_all	C:\Rails\Application\evolution\_darcs\current\app\controllers\quotes_admin_controller.rb	/^  def clear_all$/;"	f	class:QuotesAdminController
+clear_all	C:\Rails\Application\evolution\app\controllers\profiles_admin_controller.rb	/^  def clear_all$/;"	f	class:ProfilesAdminController
+clear_all	C:\Rails\Application\evolution\app\controllers\quotes_admin_controller.rb	/^  def clear_all$/;"	f	class:QuotesAdminController
+clear_all_investors	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^  def clear_all_investors$/;"	f	class:InvestorsAdminController
+clear_all_investors	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^  def clear_all_investors$/;"	f	class:InvestorsAdminController
+clear_all_pms	C:\Rails\Application\evolution\_darcs\current\app\controllers\pms_admin_controller.rb	/^  def clear_all_pms$/;"	f	class:PmsAdminController
+clear_all_pms	C:\Rails\Application\evolution\app\controllers\pms_admin_controller.rb	/^  def clear_all_pms$/;"	f	class:PmsAdminController
+clear_cache	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.clear_cache$/;"	F	class:Globalize.Locale
+clear_ip	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^  def clear_ip$/;"	f	class:InvestorsAdminController
+clear_ip	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^  def clear_ip$/;"	f	class:InvestorsAdminController
+clear_pmp	C:\Rails\Application\evolution\_darcs\current\app\controllers\pms_admin_controller.rb	/^  def clear_pmp$/;"	f	class:PmsAdminController
+clear_pmp	C:\Rails\Application\evolution\app\controllers\pms_admin_controller.rb	/^  def clear_pmp$/;"	f	class:PmsAdminController
+clip_value_if_greater_than	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def clip_value_if_greater_than(value, max_value)$/;"	f	class:Gruff.Base
+closed_after_action	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\fixtures\conversation.rb	/^  def closed_after_action$/;"	f	class:Conversation
+code	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def code; iso_639_1 || iso_639_3 || rfc_3066; end$/;"	f	class:Globalize.Language
+code=	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def code=(new_code)$/;"	f	class:Globalize.Language
+codepoints_to_pattern	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^    def self.codepoints_to_pattern(array_of_codepoints) #:nodoc:$/;"	F	class:ActiveSupport.UTF8Handler
+common_setup	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def common_setup$/;"	f	class:UTF8HandlingTest
+compose	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def compose(str)$/;"	f	class:ActiveSupport.UTF8Handler.normalize
+compose_codepoints	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def compose_codepoints(codepoints)$/;"	f	class:ActiveSupport.UTF8Handler.normalize.tidy_bytes.to_case.reorder_characters
+compress_css	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def compress_css(source)$/;"	f	class:Synthesis
+compress_js	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def compress_js(source)$/;"	f	class:Synthesis
+compressed_file	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def compressed_file$/;"	f	class:Synthesis
+compute_public_path	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package_helper.rb	/^      def compute_public_path(source, dir, ext, add_asset_id=true)$/;"	f	class:Synthesis.AssetPackageHelper
+consider_local	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^    def consider_local(*args)$/;"	f	class:ExceptionLoggable.ClassMethods
+consumes?	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def consumes?(str)$/;"	f	class:ActiveSupport.UTF8Handler.normalize
+controller_action	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^  def controller_action$/;"	f
+count_in_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def count_in_state(state, conditions=nil)$/;"	f	class:RailsStudio.Acts
+country	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.country$/;"	F	class:Globalize.Locale
+country_data	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\templates\migration.rb	/^  def self.country_data$/;"	F	class:GlobalizeMigration
+create!	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_mailer.rb	/^    def create!(method_name, *parameters) #:nodoc:$/;"	f	class:ActionMailer.Base
+create_composition_map	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def create_composition_map$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+create_fixtures	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\test_helper.rb	/^  def create_fixtures(*table_names)$/;"	f	class:Test
+create_from_exception	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^    def create_from_exception(controller, exception)$/;"	f	class:LoggedException
+create_new_build	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def create_new_build$/;"	f	class:Synthesis
+create_or_update	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^        def create_or_update$/;"	f	class:TranslateObjectMethods
+create_yml	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def self.create_yml$/;"	F	class:Synthesis.AssetPackage
+current_color	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def current_color$/;"	f	class:Gruff.Base
+current_file	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def current_file$/;"	f	class:Synthesis
+current_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def current_state$/;"	f	class:RailsStudio.Acts.StateMachine.InstanceMethods
+dash_board	C:\Rails\Application\evolution\_darcs\current\app\controllers\admin_controller.rb	/^  def dash_board$/;"	f	class:AdminController
+dash_board	C:\Rails\Application\evolution\app\controllers\admin_controller.rb	/^  def dash_board$/;"	f	class:AdminController
+data	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def data(name, data_points=[])$/;"	f	class:Gruff.Base
+debug_inline	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def debug_inline$/;"	f	class:ViewDebugHelper
+debug_popup	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def debug_popup$/;"	f	class:ViewDebugHelper
+decompose	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def decompose(str)$/;"	f	class:ActiveSupport.UTF8Handler.normalize
+decompose	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler_proc.rb	/^    def decompose(str) #:nodoc:$/;"	f	class:ActiveSupport
+decompose_codepoints	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def decompose_codepoints(type, codepoints)$/;"	f	class:ActiveSupport.UTF8Handler.normalize.tidy_bytes.to_case.reorder_characters
+delete_all	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def self.delete_all$/;"	F	class:Synthesis.AssetPackage
+delete_all_builds	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def delete_all_builds$/;"	f	class:Synthesis
+delete_old_builds	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def delete_old_builds$/;"	f	class:Synthesis
+delete_user	C:\Rails\Application\evolution\_darcs\current\app\controllers\login_controller.rb	/^  def delete_user$/;"	f	class:LoginController
+delete_user	C:\Rails\Application\evolution\app\controllers\login_controller.rb	/^  def delete_user$/;"	f	class:LoginController
+destroy	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^  def destroy$/;"	f	class:InvestorsAdminController
+destroy	C:\Rails\Application\evolution\_darcs\current\app\controllers\pms_admin_controller.rb	/^  def destroy$/;"	f	class:PmsAdminController
+destroy	C:\Rails\Application\evolution\_darcs\current\app\controllers\profiles_admin_controller.rb	/^  def destroy$/;"	f	class:ProfilesAdminController
+destroy	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^  def destroy$/;"	f	class:InvestorsAdminController
+destroy	C:\Rails\Application\evolution\app\controllers\pms_admin_controller.rb	/^  def destroy$/;"	f	class:PmsAdminController
+destroy	C:\Rails\Application\evolution\app\controllers\profiles_admin_controller.rb	/^  def destroy$/;"	f	class:ProfilesAdminController
+destroy	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_controller.rb	/^  def destroy$/;"	f	class:LoggedExceptionsController
+destroy	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def destroy$/;"	f	class:TranslateObjectMethods
+destroy_all	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_controller.rb	/^  def destroy_all$/;"	f	class:LoggedExceptionsController
+dirname	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^    def self.dirname$/;"	F	class:ActiveSupport.UnicodeDatabase
+distance_of_time_in_words	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\date_helper.rb	/^      def distance_of_time_in_words(from_time, to_time = 0, include_seconds = false)$/;"	f	class:ActionView.Helpers.DateHelper
+dollar_part	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^      def dollar_part$/;"	f	class:Globalize.Product.Currency
+down	C:\Rails\Application\evolution\db\migrate\001_create_portfolios.rb	/^  def self.down$/;"	F	class:CreatePortfolios
+down	C:\Rails\Application\evolution\vendor\plugins\exception_logger\generators\exception_migration\templates\migration.rb	/^  def self.down$/;"	F
+down	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\templates\migration.rb	/^  def self.down$/;"	F	class:GlobalizeMigration
+downcase	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def downcase(str); to_case :lowercase_mapping, str; end$/;"	f	class:ActiveSupport.UTF8Handler
+downcase	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler_proc.rb	/^    def downcase(str) #:nodoc:c$/;"	f	class:ActiveSupport
+download	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^  def self.download(from, to)$/;"	F	class:Downloader
+draw	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def draw$/;"	f	class:Gruff.Base
+draw_label	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def draw_label(x_offset, index)$/;"	f	class:Gruff.Base
+draw_legend	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def draw_legend$/;"	f	class:Gruff.Base
+draw_line_markers	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def draw_line_markers$/;"	f	class:Gruff.Base
+draw_no_data	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def draw_no_data$/;"	f	class:Gruff.Base
+draw_title	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def draw_title$/;"	f	class:Gruff.Base
+dump_obj	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def dump_obj(object)$/;"	f	class:ViewDebugHelper.popup_header.popup_data
+dump_to	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def dump_to(filename)$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+dump_vars	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def dump_vars(script,header,vars)$/;"	f	class:ViewDebugHelper
+each_line_of_norm_tests	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^    def each_line_of_norm_tests(&block)$/;"	f	class:ConformanceTest
+edit	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^  def edit$/;"	f	class:InvestorsAdminController
+edit	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^  def edit$/;"	f	class:InvestorsAdminController
+empty?	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def empty?$/;"	f	class:Globalize.Product.Currency
+evaluate_ip	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^	def evaluate_ip(from, to, investor)$/;"	f	class:EvolutionController
+evaluate_ip	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^	def evaluate_ip(from, to, investor)$/;"	f	class:EvolutionController
+evaluate_pmp	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def evaluate_pmp(pm, last_day, confidence_period)$/;"	f	class:EvolutionController
+evaluate_pmp	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def evaluate_pmp(pm, last_day, confidence_period)$/;"	f	class:EvolutionController
+evaluate_txn_cost	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def evaluate_txn_cost(portfolio1, portfolio2)$/;"	f	class:EvolutionController
+evaluate_txn_cost	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def evaluate_txn_cost(portfolio1, portfolio2)$/;"	f	class:EvolutionController
+event	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def event(event, &block)$/;"	f	class:RailsStudio.Acts.StateMachine.ClassMethods
+exception_data	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^    def exception_data(deliverer=self)$/;"	f	class:ExceptionLoggable.ClassMethods
+execute_optimizer	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def execute_optimizer$/;"	f	class:EvolutionController
+execute_optimizer	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def execute_optimizer$/;"	f	class:EvolutionController
+expire_after	C:\Rails\Application\evolution\vendor\plugins\dynamic_session\lib\dynamic_session_expiry.rb	/^    def self.expire_after(value)$/;"	F	class:CGI.Session
+fds_bits	C:\Rails\Application\evolution\j\system\main\defs\build\hostdefs.c	96;"	d	file:
+fetch	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^    def fetch(key, language, default = nil, arg = nil) # :nodoc:$/;"	f	class:Globalize.DbViewTranslator
+fetch_from_cache	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def fetch_from_cache(key, language, real_default, num)$/;"	f	class:Globalize.DbViewTranslator
+fetch_view_translation	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def fetch_view_translation(key, language, idx)$/;"	f	class:Globalize.DbViewTranslator
+filename	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^    def self.filename$/;"	F	class:ActiveSupport.UnicodeDatabase
+filtered?	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_helper.rb	/^  def filtered?$/;"	f	class:LoggedExceptionsHelper
+find	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def find(*args)$/;"	f	class:TranslateClassMethods.Product.Category
+find_by_source	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def self.find_by_source(asset_type, source)$/;"	F	class:Synthesis.AssetPackage
+find_by_target	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def self.find_by_target(asset_type, target)$/;"	F	class:Synthesis.AssetPackage
+find_by_type	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def self.find_by_type(asset_type)$/;"	F	class:Synthesis.AssetPackage
+find_exception_class_names	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^    def find_exception_class_names$/;"	f	class:LoggedException
+find_exception_controllers_and_actions	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^    def find_exception_controllers_and_actions$/;"	f	class:LoggedException
+find_in_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def find_in_state(number, state, *args)$/;"	f	class:RailsStudio.Acts
+fixPosition	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar.js	/^	function fixPosition(box) {$/;"	f
+fixPosition	C:\Rails\Application\evolution\public\javascripts\calendar.js	/^	function fixPosition(box) {$/;"	f
+fix_conditions	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^        def fix_conditions(conditions)$/;"	f	class:TranslateClassMethods.Product.Category
+fix_unicode_for_safari	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\safari_unicode_fix.rb	/^    def fix_unicode_for_safari$/;"	f	class:SafariUnicodeFix
+format	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def format(options = {})$/;"	f	class:Globalize.Product.Currency
+format_trace	C:\Rails\Application\evolution\vendor\plugins\query_trace\lib\query_trace.rb	/^  def format_trace(trace)$/;"	f	class:QueryTrace
+free	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def self.free$/;"	F	class:Globalize.Product.Currency
+full_messages	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^    def full_messages # :nodoc:$/;"	f	class:ActiveRecord.Errors
+fully_loaded?	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^          def fully_loaded?; @fully_loaded; end$/;"	f	class:Globalize.DbTranslate.ClassMethods.Product.translates
+g_hJLib	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.c	/^HMODULE g_hJLib = NULL;$/;"	v
+g_length	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def g_length(str)$/;"	f	class:ActiveSupport.UTF8Handler.normalize
+g_pack	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def g_pack(unpacked)$/;"	f	class:ActiveSupport.UTF8Handler.normalize.tidy_bytes
+g_unpack	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def g_unpack(str)$/;"	f	class:ActiveSupport.UTF8Handler.normalize.tidy_bytes
+generate_investors	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^	def generate_investors$/;"	f	class:InvestorsAdminController
+generate_investors	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^	def generate_investors$/;"	f	class:InvestorsAdminController
+generate_pms	C:\Rails\Application\evolution\_darcs\current\app\controllers\pms_admin_controller.rb	/^	def generate_pms$/;"	f	class:PmsAdminController
+generate_pms	C:\Rails\Application\evolution\app\controllers\pms_admin_controller.rb	/^	def generate_pms$/;"	f	class:PmsAdminController
+get	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\jsmin.rb	/^def get()$/;"	f
+getVisib	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar.js	/^	function getVisib(obj){$/;"	f
+getVisib	C:\Rails\Application\evolution\public\javascripts\calendar.js	/^	function getVisib(obj){$/;"	f
+get_auth_data	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_controller.rb	/^    def get_auth_data$/;"	f	class:LoggedExceptionsController
+get_cookie	C:\Rails\Application\evolution\_darcs\current\public\javascripts\menu.js	/^function get_cookie(Name) { $/;"	f
+get_cookie	C:\Rails\Application\evolution\public\javascripts\menu.js	/^function get_cookie(Name) { $/;"	f
+get_extension	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def get_extension$/;"	f	class:Synthesis
+get_file_revision	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def get_file_revision(path)$/;"	f	class:Synthesis
+globalize_facets	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^            def globalize_facets$/;"	f	class:Globalize.DbTranslate.ClassMethods.Product.translates
+globalize_facets_hash	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^            def globalize_facets_hash$/;"	f	class:Globalize.DbTranslate.ClassMethods.Product.translates
+gsub	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def gsub(*a, &b); @string.gsub(*a, &b).chars; end$/;"	f	class:ActiveSupport.Chars
+guard	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^          def guard(obj)$/;"	f	class:RailsStudio.Acts.StateMachine.SupportingClasses.StateTransition
+handler	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def handler$/;"	f	class:ActiveSupport.Chars
+handler	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def self.handler=(klass)$/;"	F	class:ActiveSupport.Chars
+hash_password	C:\Rails\Application\evolution\_darcs\current\app\models\user.rb	/^	def self.hash_password(password)$/;"	F	class:User
+hash_password	C:\Rails\Application\evolution\app\models\user.rb	/^	def self.hash_password(password)$/;"	F	class:User
+host_name	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^    def host_name$/;"	f	class:LoggedException
+immed	C:\Rails\Application\evolution\j\addons\jasync\src\jasync.c	/^JASYNC_API int JASYNC_CALL immed(char *script)$/;"	f
+import_industries	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def import_industries$/;"	f	class:ImportController
+import_industries	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def import_industries$/;"	f	class:ImportController
+import_profiles	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def import_profiles$/;"	f	class:ImportController
+import_profiles	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def import_profiles$/;"	f	class:ImportController
+import_quotes	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def import_quotes$/;"	f	class:ImportController
+import_quotes	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def import_quotes$/;"	f	class:ImportController
+import_sectors	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def import_sectors$/;"	f	class:ImportController
+import_sectors	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def import_sectors$/;"	f	class:ImportController
+in_char_class?	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def in_char_class?(codepoint, classes)$/;"	f	class:ActiveSupport.UTF8Handler.normalize.tidy_bytes
+included	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^      def self.included(base)        #:nodoc:$/;"	F	class:RailsStudio.Acts.StateMachine
+included	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\browser_filters.rb	/^  def self.included(controller)$/;"	F	class:BrowserFilters
+included	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\link_prefetching_block.rb	/^  def self.included(controller)$/;"	F	class:LinkPrefetchingBlock
+included	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\safari_unicode_fix.rb	/^  def self.included(controller)$/;"	F	class:SafariUnicodeFix
+included	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\unicode_content_type.rb	/^  def self.included(controller)$/;"	F	class:UnicodeContentType
+included	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^  def self.included(target)$/;"	F	class:ExceptionLoggable
+included	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^    def self.included(base)$/;"	F	class:Globalize.DbTranslate
+included	C:\Rails\Application\evolution\vendor\plugins\query_trace\lib\query_trace.rb	/^  def self.included(klass)$/;"	F	class:QueryTrace
+increment_color	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def increment_color$/;"	f	class:Gruff.Base
+index	C:\Rails\Application\evolution\_darcs\current\app\controllers\admin_controller.rb	/^  def index$/;"	f	class:AdminController
+index	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^  def index$/;"	f	class:InvestorsAdminController
+index	C:\Rails\Application\evolution\_darcs\current\app\controllers\login_controller.rb	/^	def index$/;"	f	class:LoginController
+index	C:\Rails\Application\evolution\_darcs\current\app\controllers\pms_admin_controller.rb	/^  def index$/;"	f	class:PmsAdminController
+index	C:\Rails\Application\evolution\_darcs\current\app\controllers\profiles_admin_controller.rb	/^  def index                                           $/;"	f	class:ProfilesAdminController
+index	C:\Rails\Application\evolution\_darcs\current\app\controllers\quotes_admin_controller.rb	/^  def index$/;"	f	class:QuotesAdminController
+index	C:\Rails\Application\evolution\app\controllers\admin_controller.rb	/^  def index$/;"	f	class:AdminController
+index	C:\Rails\Application\evolution\app\controllers\help_controller.rb	/^  def index$/;"	f	class:HelpController
+index	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^  def index$/;"	f	class:InvestorsAdminController
+index	C:\Rails\Application\evolution\app\controllers\login_controller.rb	/^	def index$/;"	f	class:LoginController
+index	C:\Rails\Application\evolution\app\controllers\pms_admin_controller.rb	/^  def index$/;"	f	class:PmsAdminController
+index	C:\Rails\Application\evolution\app\controllers\profiles_admin_controller.rb	/^  def index                                           $/;"	f	class:ProfilesAdminController
+index	C:\Rails\Application\evolution\app\controllers\quotes_admin_controller.rb	/^  def index$/;"	f	class:QuotesAdminController
+index	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def index(str, *args)$/;"	f	class:ActiveSupport.UTF8Handler
+index	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_controller.rb	/^  def index$/;"	f	class:LoggedExceptionsController
+inflate_schema	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\globalize_generator.rb	/^  def inflate_schema$/;"	f	class:GlobalizeGenerator
+inflate_schema	C:\Rails\Application\evolution\vendor\plugins\globalize\test\standard_data_test_helper.rb	/^def inflate_schema(source, dest)$/;"	f
+initialize	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def initialize$/;"	f	class:EvolutionController
+initialize	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def initialize$/;"	f	class:ImportController
+initialize	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def initialize$/;"	f	class:ReportController
+initialize	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def initialize$/;"	f	class:EvolutionController
+initialize	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def initialize$/;"	f	class:ImportController
+initialize	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def initialize$/;"	f	class:ReportController
+initialize	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def initialize(target_width=800)$/;"	f	class:Gruff.Base
+initialize	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def initialize(str)$/;"	f	class:ActiveSupport.Chars
+initialize	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def initialize$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+initialize	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^    def initialize$/;"	f	class:ActiveSupport.UnicodeDatabase
+initialize	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^          def initialize(from, to, guard=nil)$/;"	f	class:RailsStudio.Acts.StateMachine.SupportingClasses.StateTransition
+initialize	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def initialize(asset_type, package_hash)$/;"	f	class:Synthesis
+initialize	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^      def initialize$/;"	f	class:AssetPackageHelperProductionTest.setup
+initialize	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^      def initialize$/;"	f	class:AssetPackageHelperProductionTest.setup
+initialize	C:\Rails\Application\evolution\vendor\plugins\dynamic_session\lib\dynamic_session_expiry.rb	/^    def initialize(request, option={}) #:nodoc:$/;"	f	class:CGI.Session
+initialize	C:\Rails\Application\evolution\vendor\plugins\exception_logger\generators\exception_migration\exception_migration_generator.rb	/^  def initialize(runtime_args, runtime_options = {})$/;"	f	class:ExceptionMigrationGenerator
+initialize	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\globalize_generator.rb	/^  def initialize(runtime_args, runtime_options = {})$/;"	f	class:GlobalizeGenerator
+initialize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^    def initialize(orig_lang, active_lang)$/;"	f	class:Globalize.WrongLanguageError
+initialize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def initialize$/;"	f	class:Globalize.DbViewTranslator
+initialize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def initialize(code)$/;"	f	class:Globalize.Locale
+initialize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def initialize(cents)$/;"	f	class:Globalize.Product.Currency
+initialize_category	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def initialize_category$/;"	f	class:ImportController
+initialize_category	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def initialize_category$/;"	f	class:ImportController
+insert	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def insert(str, offset, fragment)$/;"	f	class:ActiveSupport.UTF8Handler
+inspect	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def inspect; english_name end$/;"	f	class:Globalize.Language
+invalidate_cache	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^      def invalidate_cache(key, language, idx)$/;"	f	class:Globalize.DbViewTranslator
+investor_average	C:\Rails\Application\evolution\_darcs\current\app\models\ip.rb	/^	def self.investor_average(benchmark_periods, best_investor)$/;"	F	class:Ip
+investor_average	C:\Rails\Application\evolution\app\models\ip.rb	/^	def self.investor_average(benchmark_periods, best_investor)$/;"	F	class:Ip
+investor_performance	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^  def investor_performance$/;"	f	class:ReportController
+investor_performance	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^  def investor_performance$/;"	f	class:ReportController
+investor_timeline	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def investor_timeline$/;"	f	class:ReportController
+investor_timeline	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def investor_timeline$/;"	f	class:ReportController
+investor_timeline_ror_chart	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def investor_timeline_ror_chart$/;"	f	class:ReportController
+investor_timeline_ror_chart	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def investor_timeline_ror_chart$/;"	f	class:ReportController
+investor_timeline_sortino_chart	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def investor_timeline_sortino_chart$/;"	f	class:ReportController
+investor_timeline_sortino_chart	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def investor_timeline_sortino_chart$/;"	f	class:ReportController
+isAlphanum	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\jsmin.rb	/^def isAlphanum(c)$/;"	f
+is_utf8?	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\core_ext\string\unicode.rb	/^        def is_utf8?$/;"	f	class:ActiveSupport.CoreExtensions.String.Unicode
+javascript_include_merged	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package_helper.rb	/^    def javascript_include_merged(*sources)$/;"	f	class:Synthesis.AssetPackageHelper
+javascript_path	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package_helper.rb	/^      def javascript_path(source)$/;"	f	class:Synthesis.AssetPackageHelper
+jsmin	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\jsmin.rb	/^def jsmin$/;"	f
+keyDown	C:\Rails\Application\evolution\doc\time series analysis\MIT OpenCourseWare  Economics  14_384 Time Series Analysis, Fall 2002  Syllabus.files\MITOPE~1.HTM	/^		function keyDown(DnEvents) $/;"	f
+language	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.language$/;"	F	class:Globalize.Locale
+language_code	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.language_code$/;"	F	class:Globalize.Locale
+language_data	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\templates\migration.rb	/^  def self.language_data$/;"	F	class:GlobalizeMigration
+larger_than_max?	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def larger_than_max?(data_point, index=0)$/;"	f	class:Gruff.Base
+link_prefetching_block	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\link_prefetching_block.rb	/^    def link_prefetching_block$/;"	f	class:LinkPrefetchingBlock
+list	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^  def list$/;"	f	class:InvestorsAdminController
+list	C:\Rails\Application\evolution\_darcs\current\app\controllers\pms_admin_controller.rb	/^  def list$/;"	f	class:PmsAdminController
+list	C:\Rails\Application\evolution\_darcs\current\app\controllers\profiles_admin_controller.rb	/^  def list$/;"	f	class:ProfilesAdminController
+list	C:\Rails\Application\evolution\_darcs\current\app\controllers\quotes_admin_controller.rb	/^  def list$/;"	f	class:QuotesAdminController
+list	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^  def list$/;"	f	class:InvestorsAdminController
+list	C:\Rails\Application\evolution\app\controllers\pms_admin_controller.rb	/^  def list$/;"	f	class:PmsAdminController
+list	C:\Rails\Application\evolution\app\controllers\profiles_admin_controller.rb	/^  def list$/;"	f	class:ProfilesAdminController
+list	C:\Rails\Application\evolution\app\controllers\quotes_admin_controller.rb	/^  def list$/;"	f	class:QuotesAdminController
+list_users	C:\Rails\Application\evolution\_darcs\current\app\controllers\login_controller.rb	/^  def list_users$/;"	f	class:LoginController
+list_users	C:\Rails\Application\evolution\app\controllers\login_controller.rb	/^  def list_users$/;"	f	class:LoginController
+load	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def self.load$/;"	F	class:ActiveSupport.UnicodeDatabase
+load	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^    def self.load$/;"	F	class:ActiveSupport.UnicodeDatabase
+load_from_csv	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\templates\migration.rb	/^  def self.load_from_csv(table_name, data)$/;"	F	class:GlobalizeMigration
+load_other_translations	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def load_other_translations$/;"	f	class:TranslateObjectMethods
+local_addresses	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^    def local_addresses$/;"	f	class:ExceptionLoggable.ClassMethods
+local_request?	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^  def local_request?$/;"	f	class:ExceptionLoggable
+locale_codes	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_mailer.rb	/^      def locale_codes$/;"	f	class:ActionMailer.Base
+localize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^      def localize$/;"	f	class:Globalize.CoreExtensions.Float
+localize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^      def localize( base = 10 )$/;"	f	class:Globalize.CoreExtensions.Integer
+localize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^      def localize(format)$/;"	f	class:Globalize.CoreExtensions.Time
+localize	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^      def localize(format)$/;"	f	class:Globalize.Date
+locate_globalize_path	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_view.rb	/^      def locate_globalize_path(template_path, use_full_path)$/;"	f	class:ActionView.Base
+log_exception	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^  def log_exception(exception)$/;"	f	class:ExceptionLoggable
+log_info_with_trace	C:\Rails\Application\evolution\vendor\plugins\query_trace\lib\query_trace.rb	/^  def log_info_with_trace(sql, name, runtime)$/;"	f	class:QueryTrace
+login	C:\Rails\Application\evolution\_darcs\current\app\controllers\login_controller.rb	/^	def login$/;"	f	class:LoginController
+login	C:\Rails\Application\evolution\_darcs\current\app\models\user.rb	/^	def self.login(name, password)$/;"	F	class:User
+login	C:\Rails\Application\evolution\app\controllers\login_controller.rb	/^	def login$/;"	f	class:LoginController
+login	C:\Rails\Application\evolution\app\models\user.rb	/^	def self.login(name, password)$/;"	F	class:User
+logout	C:\Rails\Application\evolution\_darcs\current\app\controllers\login_controller.rb	/^  def logout$/;"	f	class:LoginController
+logout	C:\Rails\Application\evolution\app\controllers\login_controller.rb	/^  def logout$/;"	f	class:LoginController
+lstrip	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def lstrip(str)$/;"	f	class:ActiveSupport.UTF8Handler
+main	C:\Rails\Application\evolution\j\system\main\defs\build\hostdefs.c	/^main(){$/;"	f
+main	C:\Rails\Application\evolution\j\system\main\defs\build\netdefs.c	/^main(){$/;"	f
+makeTimePart	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar.js	/^			function makeTimePart(className, init, range_start, range_end) {$/;"	f
+makeTimePart	C:\Rails\Application\evolution\public\javascripts\calendar.js	/^			function makeTimePart(className, init, range_start, range_end) {$/;"	f
+manifest	C:\Rails\Application\evolution\vendor\plugins\exception_logger\generators\exception_migration\exception_migration_generator.rb	/^  def manifest$/;"	f	class:ExceptionMigrationGenerator
+manifest	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\globalize_generator.rb	/^  def manifest$/;"	f	class:GlobalizeGenerator
+max	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def max(data_point, index)$/;"	f	class:Gruff.Base
+merged_file	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def merged_file$/;"	f	class:Synthesis
+method_missing	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def method_missing(m, *a, &b)$/;"	f	class:ActiveSupport.Chars
+mynext	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\jsmin.rb	/^def mynext()$/;"	f
+na	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def self.na$/;"	F	class:Globalize.Product.Currency
+na?	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def na?$/;"	f	class:Globalize.Product.Currency
+names_from_sources	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^    def self.names_from_sources(asset_type, sources)$/;"	F	class:Synthesis.AssetPackage
+native_name	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def native_name; self['native_name'] || self['english_name'] end$/;"	f	class:Globalize.Language
+new	C:\Rails\Application\evolution\_darcs\current\app\controllers\profiles_admin_controller.rb	/^  def new$/;"	f	class:ProfilesAdminController
+new	C:\Rails\Application\evolution\app\controllers\profiles_admin_controller.rb	/^  def new$/;"	f	class:ProfilesAdminController
+new_date	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def new_date(date)$/;"	f	class:ImportController
+new_date	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def new_date(date)$/;"	f	class:ImportController
+next	C:\Rails\Application\evolution\app\controllers\help_controller.rb	/^  def next$/;"	f	class:HelpController
+nextMonth	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar.js	/^			function nextMonth() {$/;"	f
+nextMonth	C:\Rails\Application\evolution\public\javascripts\calendar.js	/^			function nextMonth() {$/;"	f
+next_icon	C:\Rails\Application\evolution\app\helpers\application_helper.rb	/^  def next_icon$/;"	f	class:ApplicationHelper
+next_state_for_event	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def next_state_for_event(event)$/;"	f	class:RailsStudio.Acts.StateMachine.InstanceMethods
+next_states_for_event	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def next_states_for_event(event)$/;"	f	class:RailsStudio.Acts.StateMachine.InstanceMethods
+no_cents	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def self.no_cents; @@no_cents end$/;"	F	class:Globalize.Product.Currency
+no_cents	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def self.no_cents=(val); @@no_cents = val end$/;"	F	class:Globalize.Product.Currency
+normalize	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def normalize$/;"	f	class:Gruff.Base
+normalize	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def normalize(str, form=ActiveSupport::Multibyte::DEFAULT_NORMALIZATION_FORM)$/;"	f	class:ActiveSupport.UTF8Handler
+normalize	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler_proc.rb	/^    def normalize(str, form=ActiveSupport::Multibyte::DEFAULT_NORMALIZATION_FORM) #:nodoc:$/;"	f	class:ActiveSupport
+normalize_boundary_map	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def normalize_boundary_map$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+not_original_language	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def not_original_language$/;"	f	class:TranslateObjectMethods
+number_grouping_scheme	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\country.rb	/^    def number_grouping_scheme$/;"	f	class:Globalize.Country
+offset	C:\Rails\Application\evolution\j\system\main\defs\build\hostdefs.c	15;"	d	file:
+offset	C:\Rails\Application\evolution\j\system\main\defs\build\netdefs.c	16;"	d	file:
+on	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^    def on(attribute)$/;"	f	class:ActiveRecord.Errors
+onSelect	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar-setup.js	/^	function onSelect(cal) {$/;"	f
+onSelect	C:\Rails\Application\evolution\public\javascripts\calendar-setup.js	/^	function onSelect(cal) {$/;"	f
+onloadfunction	C:\Rails\Application\evolution\_darcs\current\public\javascripts\menu.js	/^function onloadfunction(){$/;"	f
+onloadfunction	C:\Rails\Application\evolution\public\javascripts\menu.js	/^function onloadfunction(){$/;"	f
+optimize	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def optimize(pm, current_period, confidence_period)$/;"	f	class:EvolutionController
+optimize	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def optimize(pm, current_period, confidence_period)$/;"	f	class:EvolutionController
+paginate_collection	C:\Rails\Application\evolution\_darcs\current\app\controllers\application.rb	/^	def paginate_collection(collection, options = {})    $/;"	f	class:ApplicationController
+paginate_collection	C:\Rails\Application\evolution\app\controllers\application.rb	/^	def paginate_collection(collection, options = {})    $/;"	f	class:ApplicationController
+pagination_remote_links	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_helper.rb	/^  def pagination_remote_links(paginator, options={}, html_options={})$/;"	f	class:LoggedExceptionsHelper
+param_default	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar-setup.js	/^	function param_default(pname, def) { if (typeof params[pname] == "undefined") { params[pname] = def; } };$/;"	f
+param_default	C:\Rails\Application\evolution\public\javascripts\calendar-setup.js	/^	function param_default(pname, def) { if (typeof params[pname] == "undefined") { params[pname] = def; } };$/;"	f
+parse	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def parse$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+parse	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\rfc_3066.rb	/^    def self.parse(locale)$/;"	F	class:Globalize.RFC_3066
+parse	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def self.parse(num)$/;"	F	class:Globalize.Product.Currency
+parse_codepoints	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def parse_codepoints(line)$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+parse_composition_exclusion	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def parse_composition_exclusion(line)$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+parse_cp1252	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def parse_cp1252(line)$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+parse_grapheme_break_property	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\generators\generate_tables.rb	/^    def parse_grapheme_break_property(line)$/;"	f	class:ActiveSupport.UnicodeTableGenerator
+peek	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\jsmin.rb	/^def peek()$/;"	f
+pending_test_prod_tr_ids	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def pending_test_prod_tr_ids$/;"	f	class:TranslationTest
+performance	C:\Rails\Application\evolution\_darcs\current\app\models\ip.rb	/^	def self.performance(rfr)$/;"	F	class:Ip
+performance	C:\Rails\Application\evolution\_darcs\current\app\models\pmp.rb	/^  def self.performance(rfr)$/;"	F	class:Pmp
+performance	C:\Rails\Application\evolution\_darcs\current\app\models\quote.rb	/^  def self.performance(rfr)$/;"	F	class:Quote
+performance	C:\Rails\Application\evolution\app\models\ip.rb	/^	def self.performance(rfr)$/;"	F	class:Ip
+performance	C:\Rails\Application\evolution\app\models\pmp.rb	/^  def self.performance(rfr)$/;"	F	class:Pmp
+performance	C:\Rails\Application\evolution\app\models\quote.rb	/^  def self.performance(rfr)$/;"	F	class:Quote
+pick	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\country.rb	/^    def self.pick(rfc)$/;"	F	class:Globalize.Country
+pick	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def self.pick(rfc)$/;"	F	class:Globalize.Language
+pick	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\view_translation.rb	/^    def self.pick(key, language, idx)$/;"	F	class:Globalize.ViewTranslation
+plural_index	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def plural_index(num)$/;"	f	class:Globalize.Language
+pm_hotspot	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^ 	def pm_hotspot$/;"	f	class:ReportController
+pm_hotspot	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^ 	def pm_hotspot$/;"	f	class:ReportController
+pm_hotspot_ror_chart	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def pm_hotspot_ror_chart$/;"	f	class:ReportController
+pm_hotspot_ror_chart	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def pm_hotspot_ror_chart$/;"	f	class:ReportController
+pm_hotspot_sortino_chart	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def pm_hotspot_sortino_chart$/;"	f	class:ReportController
+pm_hotspot_sortino_chart	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def pm_hotspot_sortino_chart$/;"	f	class:ReportController
+pm_performance	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def pm_performance$/;"	f	class:ReportController
+pm_performance	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def pm_performance$/;"	f	class:ReportController
+popup_create	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def popup_create$/;"	f	class:ViewDebugHelper.popup_header.popup_data
+popup_data	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def popup_data(script,key,value); script << add( "<tr><td class='key'>#{key}<\/td><td>#{value.gsub(\/\\r|\\n\/,'<br\/>')}<\/td><\/tr>" ); end$/;"	f	class:ViewDebugHelper.popup_header
+popup_header	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def popup_header(script,heading); script << add( "<tr><th colspan='2'>#{heading}<\/th><\/tr>" ); end$/;"	f	class:ViewDebugHelper
+postload_facets	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^            def postload_facets$/;"	f	class:Globalize.DbTranslate.ClassMethods.Product.translates
+ppt	C:\Rails\Application\evolution\app\controllers\help_controller.rb	/^  def ppt$/;"	f	class:HelpController
+predict	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^	def predict$/;"	f	class:ReportController
+predict	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^	def predict$/;"	f	class:ReportController
+preload_facets	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^            def preload_facets; @@preload_facets; end$/;"	f	class:Globalize.DbTranslate.ClassMethods.Product.translates
+prepare_data	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def prepare_data(current_period)$/;"	f	class:EvolutionController
+prepare_data	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def prepare_data(current_period)$/;"	f	class:EvolutionController
+prevMonth	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar.js	/^			function prevMonth() {$/;"	f
+prevMonth	C:\Rails\Application\evolution\public\javascripts\calendar.js	/^			function prevMonth() {$/;"	f
+previous	C:\Rails\Application\evolution\app\controllers\help_controller.rb	/^  def previous$/;"	f	class:HelpController
+previous_icon	C:\Rails\Application\evolution\app\helpers\application_helper.rb	/^  def previous_icon$/;"	f	class:ApplicationHelper
+query	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_controller.rb	/^  def query$/;"	f	class:LoggedExceptionsController
+rails_root	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^    def rails_root$/;"	f
+read_after_first_action	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\fixtures\conversation.rb	/^  def read_after_first_action$/;"	f	class:Conversation
+read_after_second_action	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\fixtures\conversation.rb	/^  def read_after_second_action$/;"	f	class:Conversation
+read_enter_action	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\fixtures\conversation.rb	/^  def read_enter_action$/;"	f	class:Conversation
+redirect_to_index	C:\Rails\Application\evolution\_darcs\current\app\controllers\application.rb	/^	def redirect_to_index(msg = nil)$/;"	f	class:ApplicationController
+redirect_to_index	C:\Rails\Application\evolution\app\controllers\application.rb	/^	def redirect_to_index(msg = nil)$/;"	f	class:ApplicationController
+relative_url_root	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^          def relative_url_root$/;"	f	class:AssetPackageHelperProductionTest.setup.initialize
+relative_url_root	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^          def relative_url_root$/;"	f	class:AssetPackageHelperProductionTest.setup.initialize
+reload	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def reload$/;"	f	class:TranslateObjectMethods
+reloadable	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\country.rb	/^    def self.reloadable?; false end$/;"	F	class:Globalize.Country
+reloadable	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def self.reloadable?; false end$/;"	F	class:Globalize.Language
+reloadable	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\translation.rb	/^    def self.reloadable?; false end$/;"	F	class:Globalize.Translation
+render_404	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^  def render_404(exception)$/;"	f	class:ExceptionLoggable
+render_500	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^  def render_500(exception)$/;"	f	class:ExceptionLoggable
+render_file	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_view.rb	/^    def render_file(template_path, use_full_path = true, local_assigns = {})$/;"	f	class:ActionView.Base
+render_gradiated_background	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def render_gradiated_background(top_color, bottom_color)$/;"	f	class:Gruff.Base
+render_image_background	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def render_image_background(image_path)$/;"	f	class:Gruff.Base
+render_localized_normal_template	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\action_mailer.rb	/^      def render_localized_normal_template$/;"	f	class:ActionMailer.Base
+render_style	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def render_style(script)$/;"	f	class:ViewDebugHelper
+render_table	C:\Rails\Application\evolution\vendor\plugins\debug_view_helper\lib\view_debug_helper.rb	/^  def render_table(script)$/;"	f	class:ViewDebugHelper
+reorder_characters	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def reorder_characters(codepoints)$/;"	f	class:ActiveSupport.UTF8Handler.normalize.tidy_bytes.to_case
+replace_colors	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def replace_colors(color_list=[])$/;"	f	class:Gruff.Base
+request=	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^  def request=(request)$/;"	f
+rescue_action_in_public	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\exception_loggable.rb	/^  def rescue_action_in_public(exception)$/;"	f	class:ExceptionLoggable
+reset_investor	C:\Rails\Application\evolution\_darcs\current\app\controllers\investors_admin_controller.rb	/^	def reset_investor$/;"	f	class:InvestorsAdminController
+reset_investor	C:\Rails\Application\evolution\_darcs\current\app\controllers\pms_admin_controller.rb	/^	def reset_investor$/;"	f	class:PmsAdminController
+reset_investor	C:\Rails\Application\evolution\app\controllers\investors_admin_controller.rb	/^	def reset_investor$/;"	f	class:InvestorsAdminController
+reset_investor	C:\Rails\Application\evolution\app\controllers\pms_admin_controller.rb	/^	def reset_investor$/;"	f	class:PmsAdminController
+reset_themes	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def reset_themes$/;"	f	class:Gruff.Base
+reset_with_agent_reserved	C:\Rails\Application\evolution\_darcs\current\app\controllers\application.rb	/^	def reset_with_agent_reserved$/;"	f	class:ApplicationController
+reset_with_agent_reserved	C:\Rails\Application\evolution\app\controllers\application.rb	/^	def reset_with_agent_reserved$/;"	f	class:ApplicationController
+reset_without_agent_reserved	C:\Rails\Application\evolution\_darcs\current\app\controllers\application.rb	/^  def reset_without_agent_reserved$/;"	f	class:ApplicationController
+reset_without_agent_reserved	C:\Rails\Application\evolution\app\controllers\application.rb	/^  def reset_without_agent_reserved$/;"	f	class:ApplicationController
+retrieve_profile	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def retrieve_profile(ticker)$/;"	f	class:ImportController
+retrieve_profile	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def retrieve_profile(ticker)$/;"	f	class:ImportController
+retrieve_stock	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def retrieve_stock(ticker, from, to, type=:Weekly, currency=:USD)$/;"	f	class:ImportController
+retrieve_stock	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def retrieve_stock(ticker, from, to, type=:Weekly, currency=:USD)$/;"	f	class:ImportController
+retrive_index	C:\Rails\Application\evolution\_darcs\current\app\controllers\import_controller.rb	/^	def retrive_index$/;"	f	class:ImportController
+retrive_index	C:\Rails\Application\evolution\app\controllers\import_controller.rb	/^	def retrive_index$/;"	f	class:ImportController
+reverse	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def reverse(str)$/;"	f	class:ActiveSupport.UTF8Handler
+revision	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package.rb	/^      def revision$/;"	f	class:Synthesis
+ror_timeline	C:\Rails\Application\evolution\_darcs\current\app\models\ip.rb	/^	def self.ror_timeline(ps, pe)$/;"	F	class:Ip
+ror_timeline	C:\Rails\Application\evolution\app\models\ip.rb	/^	def self.ror_timeline(ps, pe)$/;"	F	class:Ip
+row_even	C:\Rails\Application\evolution\vendor\plugins\query_trace\lib\query_trace.rb	/^      def row_even$/;"	f	class:QueryTrace.included
+rstrip	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def rstrip(str)$/;"	f	class:ActiveSupport.UTF8Handler
+run_transition_action	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def run_transition_action(action)$/;"	f	class:RailsStudio.Acts.StateMachine.InstanceMethods
+sanitize_backtrace	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exception.rb	/^    def sanitize_backtrace(trace)$/;"	f
+save	C:\Rails\Application\evolution\vendor\plugins\globalize\populators\pop_dates.rb	/^def save(lang, key, val)$/;"	f
+savemenustate	C:\Rails\Application\evolution\_darcs\current\public\javascripts\menu.js	/^function savemenustate(){$/;"	f
+savemenustate	C:\Rails\Application\evolution\public\javascripts\menu.js	/^function savemenustate(){$/;"	f
+scale	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def scale(value)$/;"	f	class:Gruff.Base
+scale_fontsize	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def scale_fontsize(value)$/;"	f	class:Gruff.Base
+select_month	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\date_helper.rb	/^      def select_month(date, options = {})$/;"	f	class:ActionView.Helpers.DateHelper
+session_expiration_offset	C:\Rails\Application\evolution\vendor\plugins\dynamic_session\lib\dynamic_session_expiry.rb	/^    def self.session_expiration_offset$/;"	F	class:CGI.Session
+session_expiration_offset	C:\Rails\Application\evolution\vendor\plugins\dynamic_session\lib\dynamic_session_expiry.rb	/^    def self.session_expiration_offset=(value)$/;"	F	class:CGI.Session
+set	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^    def set(key, language, translations, zero_form = nil) # :nodoc:$/;"	f	class:Globalize.DbViewTranslator
+set	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.set(locale)$/;"	F	class:Globalize.Locale
+setMonth	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar.js	/^		function setMonth(m) {$/;"	f
+setMonth	C:\Rails\Application\evolution\public\javascripts\calendar.js	/^		function setMonth(m) {$/;"	f
+setVars	C:\Rails\Application\evolution\_darcs\current\public\javascripts\calendar.js	/^			function setVars() {$/;"	f
+setVars	C:\Rails\Application\evolution\public\javascripts\calendar.js	/^			function setVars() {$/;"	f
+set_base_language	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.set_base_language(lang)$/;"	F	class:Globalize.Locale
+set_charset	C:\Rails\Application\evolution\_darcs\current\app\controllers\application.rb	/^  def set_charset$/;"	f	class:ApplicationController
+set_charset	C:\Rails\Application\evolution\app\controllers\application.rb	/^  def set_charset$/;"	f	class:ApplicationController
+set_content_type	C:\Rails\Application\evolution\vendor\plugins\browser_filters\lib\unicode_content_type.rb	/^    def set_content_type$/;"	f	class:UnicodeContentType
+set_initial_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def set_initial_state #:nodoc:$/;"	f	class:RailsStudio.Acts.StateMachine.InstanceMethods
+set_original_language	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def set_original_language$/;"	f	class:TranslateObjectMethods
+set_pluralized	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_view_translator.rb	/^    def set_pluralized(key, language, idx, translation)$/;"	f	class:Globalize.DbViewTranslator
+set_pluralized_translation	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.set_pluralized_translation(key, *options)$/;"	F	class:Globalize.Locale
+set_translation	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.set_translation(key, *options)$/;"	F	class:Globalize.Locale
+setup	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def setup$/;"	f	class:CharsTest
+setup	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^    def setup$/;"	f	class:ConformanceTestProc
+setup	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^  def setup$/;"	f	class:ConformanceTestPure
+setup	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^    def setup$/;"	f	class:UTF8HandlingTest.UTF8HandlingTestProc
+setup	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def setup$/;"	f	class:UTF8HandlingTest.UTF8HandlingTestPure
+setup	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def setup$/;"	f	class:AssetPackageHelperProductionTest
+setup	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def setup$/;"	f	class:AssetPackageHelperProductionTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\action_mailer_test.rb	/^  def setup$/;"	f	class:ActionMailerTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^  def setup$/;"	f	class:CoreExtTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def setup$/;"	f	class:CurrencyTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def setup$/;"	f	class:DateHelperTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def setup$/;"	f	class:TranslationTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\locale_test.rb	/^  def setup$/;"	f	class:LocaleTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\model_test.rb	/^  def setup$/;"	f	class:ModelTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\test_standard_data.rb	/^  def setup$/;"	f	class:TestStandardData
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\validation_test.rb	/^  def setup$/;"	f	class:ValidationTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_picking_test.rb	/^  def setup$/;"	f	class:ViewPickingTest
+setup	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def setup$/;"	f	class:ViewTranslationTest
+setup_drawing	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def setup_drawing$/;"	f	class:Gruff.Base
+setup_fields	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^      def setup_fields$/;"	f	class:Globalize.Locale
+setup_graph_measurements	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def setup_graph_measurements$/;"	f	class:Gruff.Base
+show	C:\Rails\Application\evolution\vendor\plugins\exception_logger\lib\logged_exceptions_controller.rb	/^  def show$/;"	f	class:LoggedExceptionsController
+significant	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def significant(inc)$/;"	f	class:Gruff.Base
+size	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def size(str)$/;"	f	class:ActiveSupport.UTF8Handler
+slice	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def slice(str, *args)$/;"	f	class:ActiveSupport.UTF8Handler
+sort_norm_data	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def sort_norm_data$/;"	f	class:Gruff.Base
+sortino_timeline	C:\Rails\Application\evolution\_darcs\current\app\models\ip.rb	/^	def self.sortino_timeline(ps, pe, rfr)$/;"	F	class:Ip
+sortino_timeline	C:\Rails\Application\evolution\app\models\ip.rb	/^	def self.sortino_timeline(ps, pe, rfr)$/;"	F	class:Ip
+split	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def split(*args)$/;"	f	class:ActiveSupport.Chars
+sqlite?	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^            def sqlite?; connection.kind_of? ActiveRecord::ConnectionAdapters::SQLiteAdapter end$/;"	f	class:Globalize.DbTranslate.ClassMethods.Product.translates
+state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def state(state, opts={})$/;"	f	class:RailsStudio.Acts.StateMachine
+states	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def states$/;"	f	class:RailsStudio.Acts.StateMachine.ClassMethods
+stock_performance	C:\Rails\Application\evolution\_darcs\current\app\controllers\report_controller.rb	/^  def stock_performance$/;"	f	class:ReportController
+stock_performance	C:\Rails\Application\evolution\app\controllers\report_controller.rb	/^  def stock_performance$/;"	f	class:ReportController
+string_from_classes	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def string_from_classes(classes)$/;"	f	class:UTF8HandlingTest
+strip	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def strip(str)$/;"	f	class:ActiveSupport.UTF8Handler
+stylesheet_link_merged	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package_helper.rb	/^    def stylesheet_link_merged(*sources)$/;"	f	class:Synthesis.AssetPackageHelper
+stylesheet_path	C:\Rails\Application\evolution\vendor\plugins\asset_packager\lib\synthesis\asset_package_helper.rb	/^      def stylesheet_path(source)$/;"	f	class:Synthesis.AssetPackageHelper
+submit_form	C:\Rails\Application\evolution\doc\time series analysis\MIT OpenCourseWare  Economics  14_384 Time Series Analysis, Fall 2002  Syllabus.files\MITOPE~1.HTM	/^		function submit_form()$/;"	f
+sums	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def sums(data_set)$/;"	f	class:Gruff.Base
+synchronize	C:\Rails\Application\evolution\_darcs\current\app\models\pi.rb	/^ 	def synchronize(quote)$/;"	f	class:Pi
+synchronize	C:\Rails\Application\evolution\app\models\pi.rb	/^ 	def synchronize(quote)$/;"	f	class:Pi
+teardown	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^  def teardown$/;"	f	class:CoreExtTest
+teardown	C:\Rails\Application\evolution\vendor\plugins\globalize\test\test_standard_data.rb	/^  def teardown$/;"	f	class:TestStandardData
+test	C:\Rails\Application\evolution\vendor\plugins\globalize\test\action_mailer_test.rb	/^    def test$/;"	f	class:ActionMailerTest.GlobalizeMailer
+test_after_actions_executed	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_after_actions_executed$/;"	f	class:ActsAsStateMachineTest
+test_after_actions_not_run_on_loopback_transition	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_after_actions_not_run_on_loopback_transition$/;"	f	class:ActsAsStateMachineTest
+test_aliases	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_aliases$/;"	f	class:ViewTranslationTest
+test_amount_no_cents	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_amount_no_cents$/;"	f	class:CurrencyTest
+test_amount_no_cents_force_cents	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_amount_no_cents_force_cents$/;"	f	class:CurrencyTest
+test_amount_unlocalized	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_amount_unlocalized$/;"	f	class:CurrencyTest
+test_base	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_base$/;"	f	class:TranslationTest
+test_base	C:\Rails\Application\evolution\vendor\plugins\globalize\test\locale_test.rb	/^  def test_base$/;"	f	class:LocaleTest
+test_base_translation_create	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_base_translation_create$/;"	f	class:TranslationTest
+test_belongs_to_translation	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_belongs_to_translation$/;"	f	class:TranslationTest
+test_bidi_embed	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_bidi_embed$/;"	f	class:TranslationTest
+test_cache	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_cache$/;"	f	class:ViewTranslationTest.test_set_translation
+test_can_go_from_read_to_closed_because_guard_passes	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_can_go_from_read_to_closed_because_guard_passes$/;"	f	class:ActsAsStateMachineTest
+test_cannot_go_from_read_to_closed_because_of_guard	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_cannot_go_from_read_to_closed_because_of_guard$/;"	f	class:ActsAsStateMachineTest
+test_capitalize	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_capitalize$/;"	f	class:UTF8HandlingTest
+test_casefolding	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_casefolding$/;"	f	class:UTF8HandlingTest
+test_change_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_change_state$/;"	f	class:ActsAsStateMachineTest
+test_column_was_set	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_column_was_set$/;"	f	class:ActsAsStateMachineTest
+test_comparability	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_comparability$/;"	f	class:CharsTest
+test_comparisons	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_comparisons$/;"	f	class:CurrencyTest
+test_count_in_invalid_state_raises_exception	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_count_in_invalid_state_raises_exception$/;"	f	class:ActsAsStateMachineTest
+test_count_in_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_count_in_state$/;"	f	class:ActsAsStateMachineTest
+test_count_in_state_with_conditions	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_count_in_state_with_conditions$/;"	f	class:ActsAsStateMachineTest
+test_create_update	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_create_update$/;"	f	class:TranslationTest
+test_creation	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_creation$/;"	f	class:CurrencyTest
+test_css_basic	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def test_css_basic$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_css_basic	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def test_css_basic$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_css_multiple_from_same_package	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def test_css_multiple_from_same_package$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_css_multiple_from_same_package	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def test_css_multiple_from_same_package$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_css_multiple_packages	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def test_css_multiple_packages$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_css_multiple_packages	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def test_css_multiple_packages$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_css_names_from_sources	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_packager_test.rb	/^  def test_css_names_from_sources$/;"	f	class:AssetPackagerTest
+test_css_unpackaged_file	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def test_css_unpackaged_file$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_css_unpackaged_file	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def test_css_unpackaged_file$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_date_select_with_nil_value_and_no_start_and_end_year	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_date_select_with_nil_value_and_no_start_and_end_year$/;"	f	class:DateHelperTest
+test_date_select_with_zero_value	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_date_select_with_zero_value$/;"	f	class:DateHelperTest
+test_date_select_with_zero_value_and_no_start_and_end_year	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_date_select_with_zero_value_and_no_start_and_end_year$/;"	f	class:DateHelperTest
+test_date_select_with_zero_value_and_no_start_year	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_date_select_with_zero_value_and_no_start_year$/;"	f	class:DateHelperTest
+test_dates	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^  def test_dates$/;"	f	class:CoreExtTest
+test_dates	C:\Rails\Application\evolution\vendor\plugins\globalize\test\test_standard_data.rb	/^  def test_dates$/;"	f	class:TestStandardData
+test_datetime_select_with_nil_value_and_no_start_and_end_year	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_datetime_select_with_nil_value_and_no_start_and_end_year$/;"	f	class:DateHelperTest
+test_default_number_substitution	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_default_number_substitution$/;"	f	class:ViewTranslationTest.test_set_translation
+test_default_number_substitution2	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_default_number_substitution2$/;"	f	class:ViewTranslationTest.test_set_translation
+test_delete_and_build	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_packager_test.rb	/^  def test_delete_and_build$/;"	f	class:AssetPackagerTest
+test_destroy	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_destroy$/;"	f	class:TranslationTest
+test_destroy_class_method	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_destroy_class_method$/;"	f	class:TranslationTest
+test_destructiveness	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_destructiveness  $/;"	f	class:CharsTest
+test_distance_in_words	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_distance_in_words$/;"	f	class:DateHelperTest
+test_distance_in_words_date	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_distance_in_words_date$/;"	f	class:DateHelperTest
+test_distance_in_words_he	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_distance_in_words_he$/;"	f	class:DateHelperTest
+test_en	C:\Rails\Application\evolution\vendor\plugins\globalize\test\action_mailer_test.rb	/^  def test_en$/;"	f	class:ActionMailerTest
+test_en_us	C:\Rails\Application\evolution\vendor\plugins\globalize\test\action_mailer_test.rb	/^  def test_en_us$/;"	f	class:ActionMailerTest
+test_entry_action_executed	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_entry_action_executed$/;"	f	class:ActsAsStateMachineTest
+test_entry_and_exit_not_run_on_loopback_transition	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_entry_and_exit_not_run_on_loopback_transition$/;"	f	class:ActsAsStateMachineTest
+test_event_methods_created	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_event_methods_created$/;"	f	class:ActsAsStateMachineTest
+test_exit_action_executed	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_exit_action_executed$/;"	f	class:ActsAsStateMachineTest
+test_find_all_in_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_find_all_in_state$/;"	f	class:ActsAsStateMachineTest
+test_find_all_in_state_with_conditions	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_find_all_in_state_with_conditions$/;"	f	class:ActsAsStateMachineTest
+test_find_by_source	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_packager_test.rb	/^  def test_find_by_source$/;"	f	class:AssetPackagerTest
+test_find_by_target	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_packager_test.rb	/^  def test_find_by_target$/;"	f	class:AssetPackagerTest
+test_find_by_type	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_packager_test.rb	/^  def test_find_by_type$/;"	f	class:AssetPackagerTest
+test_find_first_in_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_find_first_in_state$/;"	f	class:ActsAsStateMachineTest
+test_find_first_in_state_with_conditions	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_find_first_in_state_with_conditions$/;"	f	class:ActsAsStateMachineTest
+test_find_in_invalid_state_raises_exception	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_find_in_invalid_state_raises_exception$/;"	f	class:ActsAsStateMachineTest
+test_first	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_picking_test.rb	/^  def test_first$/;"	f	class:ViewPickingTest
+test_fix_conditions	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_fix_conditions$/;"	f	class:TranslationTest
+test_format	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_format$/;"	f	class:CurrencyTest
+test_format_nil_locale	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_format_nil_locale$/;"	f	class:CurrencyTest
+test_free	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_free$/;"	f	class:CurrencyTest
+test_grapheme_cluster_length	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_grapheme_cluster_length$/;"	f	class:UTF8HandlingTest
+test_gsub	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_gsub$/;"	f	class:CharsTest
+test_habtm_translation	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_habtm_translation$/;"	f	class:TranslationTest
+test_handler_setting	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_handler_setting$/;"	f	class:CharsTest
+test_has_many_translation	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_has_many_translation$/;"	f	class:TranslationTest
+test_he_il	C:\Rails\Application\evolution\vendor\plugins\globalize\test\action_mailer_test.rb	/^  def test_he_il$/;"	f	class:ActionMailerTest
+test_ignore_invalid_events	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_ignore_invalid_events$/;"	f	class:ActsAsStateMachineTest
+test_illegal_code	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_illegal_code$/;"	f	class:ViewTranslationTest.test_set_translation
+test_include	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_include$/;"	f	class:TranslationTest
+test_include_translated	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_include_translated$/;"	f	class:TranslationTest
+test_index	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_index$/;"	f	class:UTF8HandlingTest
+test_indian_scheme	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^  def test_indian_scheme$/;"	f	class:CoreExtTest
+test_indian_scheme	C:\Rails\Application\evolution\vendor\plugins\globalize\test\test_standard_data.rb	/^  def test_indian_scheme$/;"	f	class:TestStandardData
+test_initial_state	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_initial_state$/;"	f	class:ActsAsStateMachineTest
+test_initial_state_value	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_initial_state_value$/;"	f	class:ActsAsStateMachineTest
+test_insert	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_insert$/;"	f	class:UTF8HandlingTest
+test_js_basic	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def test_js_basic$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_js_basic	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def test_js_basic$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_js_multiple_from_same_package	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def test_js_multiple_from_same_package$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_js_multiple_from_same_package	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def test_js_multiple_from_same_package$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_js_multiple_packages	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def test_js_multiple_packages$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_js_multiple_packages	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def test_js_multiple_packages$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_js_names_from_sources	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_packager_test.rb	/^  def test_js_names_from_sources$/;"	f	class:AssetPackagerTest
+test_js_unpackaged_file	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_development_test.rb	/^  def test_js_unpackaged_file$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_js_unpackaged_file	C:\Rails\Application\evolution\vendor\plugins\asset_packager\test\asset_package_helper_production_test.rb	/^  def test_js_unpackaged_file$/;"	f	class:AssetPackageHelperProductionTest.setup
+test_language	C:\Rails\Application\evolution\vendor\plugins\globalize\test\model_test.rb	/^  def test_language$/;"	f	class:ModelTest
+test_math	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_math$/;"	f	class:CurrencyTest
+test_max_validation	C:\Rails\Application\evolution\vendor\plugins\globalize\test\validation_test.rb	/^  def test_max_validation$/;"	f	class:ValidationTest
+test_method_chaining	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_method_chaining$/;"	f	class:CharsTest
+test_missed_report	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_missed_report$/;"	f	class:ViewTranslationTest.test_set_translation
+test_native_language	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_native_language$/;"	f	class:TranslationTest
+test_native_name	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_native_name$/;"	f	class:TranslationTest
+test_new	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_new$/;"	f	class:TranslationTest
+test_new	C:\Rails\Application\evolution\vendor\plugins\globalize\test\locale_test.rb	/^  def test_new$/;"	f	class:LocaleTest
+test_next_state_for_event	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_next_state_for_event$/;"	f	class:ActsAsStateMachineTest
+test_nil	C:\Rails\Application\evolution\vendor\plugins\globalize\test\action_mailer_test.rb	/^  def test_nil$/;"	f	class:ActionMailerTest
+test_nil	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_nil$/;"	f	class:CurrencyTest
+test_nil	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_nil$/;"	f	class:TranslationTest
+test_nil	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_picking_test.rb	/^  def test_nil$/;"	f	class:ViewPickingTest
+test_nil_include_translated	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_nil_include_translated$/;"	f	class:TranslationTest
+test_nil_locale	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^  def test_nil_locale$/;"	f	class:CoreExtTest
+test_nil_locale	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_nil_locale$/;"	f	class:CurrencyTest
+test_nil_locale	C:\Rails\Application\evolution\vendor\plugins\globalize\test\test_standard_data.rb	/^  def test_nil_locale$/;"	f	class:TestStandardData
+test_nil_numbers	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^  def test_nil_numbers$/;"	f	class:CoreExtTest
+test_no_initial_value_raises_exception	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_no_initial_value_raises_exception$/;"	f	class:ActsAsStateMachineTest
+test_no_substitute	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_no_substitute$/;"	f	class:ViewTranslationTest.test_set_translation
+test_non_full_path	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_picking_test.rb	/^  def test_non_full_path$/;"	f	class:ViewPickingTest
+test_non_full_path_nil	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_picking_test.rb	/^  def test_non_full_path_nil$/;"	f	class:ViewPickingTest
+test_normalization_C_pri_29	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_normalization_C_pri_29$/;"	f	class:UTF8HandlingTest
+test_normalizations_C	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^  def test_normalizations_C$/;"	f	class:ConformanceTest
+test_normalizations_D	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^  def test_normalizations_D$/;"	f	class:ConformanceTest
+test_normalizations_KC	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^  def test_normalizations_KC$/;"	f	class:ConformanceTest
+test_normalizations_KD	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^  def test_normalizations_KD$/;"	f	class:ConformanceTest
+test_not_currency	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_not_currency$/;"	f	class:CurrencyTest
+test_numbers	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^  def test_numbers$/;"	f	class:CoreExtTest
+test_numbers	C:\Rails\Application\evolution\vendor\plugins\globalize\test\test_standard_data.rb	/^  def test_numbers$/;"	f	class:TestStandardData
+test_order_en	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_order_en$/;"	f	class:TranslationTest
+test_order_he	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_order_he$/;"	f	class:TranslationTest
+test_overflow_code	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_overflow_code$/;"	f	class:ViewTranslationTest.test_set_translation
+test_parse	C:\Rails\Application\evolution\vendor\plugins\globalize\test\currency_test.rb	/^  def test_parse$/;"	f	class:CurrencyTest
+test_passthrough_on_kcode	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_passthrough_on_kcode$/;"	f	class:CharsTest
+test_plural	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_plural$/;"	f	class:ViewTranslationTest
+test_pragma	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_pragma$/;"	f	class:CharsTest
+test_prod_tr_all	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_prod_tr_all$/;"	f	class:TranslationTest
+test_prod_tr_first	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_prod_tr_first$/;"	f	class:TranslationTest
+test_prod_tr_id	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_prod_tr_id$/;"	f	class:TranslationTest
+test_query_methods_created	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_query_methods_created$/;"	f	class:ActsAsStateMachineTest
+test_regexp	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_regexp$/;"	f	class:CharsTest
+test_resilience	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_resilience$/;"	f	class:CharsTest
+test_returned_base	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_returned_base$/;"	f	class:TranslationTest
+test_reverse	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_reverse$/;"	f	class:UTF8HandlingTest
+test_rfc	C:\Rails\Application\evolution\vendor\plugins\globalize\test\locale_test.rb	/^  def test_rfc$/;"	f	class:LocaleTest
+test_run_transition_action_is_private	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_run_transition_action_is_private$/;"	f	class:ActsAsStateMachineTest
+test_sanity	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_sanity$/;"	f	class:CharsTest
+test_select_date	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_date$/;"	f	class:DateHelperTest
+test_select_date_with_disabled	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_date_with_disabled$/;"	f	class:DateHelperTest
+test_select_date_with_no_end_year	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_date_with_no_end_year$/;"	f	class:DateHelperTest
+test_select_date_with_no_start_or_end_year	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_date_with_no_start_or_end_year$/;"	f	class:DateHelperTest
+test_select_date_with_no_start_year	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_date_with_no_start_year$/;"	f	class:DateHelperTest
+test_select_day	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_day$/;"	f	class:DateHelperTest
+test_select_day_nil_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_day_nil_with_blank$/;"	f	class:DateHelperTest
+test_select_day_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_day_with_blank$/;"	f	class:DateHelperTest
+test_select_hour	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_hour$/;"	f	class:DateHelperTest
+test_select_hour_nil_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_hour_nil_with_blank$/;"	f	class:DateHelperTest
+test_select_hour_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_hour_with_blank$/;"	f	class:DateHelperTest
+test_select_hour_with_disabled	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_hour_with_disabled$/;"	f	class:DateHelperTest
+test_select_hour_with_field_name_override	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_hour_with_field_name_override$/;"	f	class:DateHelperTest
+test_select_minute	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_minute$/;"	f	class:DateHelperTest
+test_select_minute_nil_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_minute_nil_with_blank$/;"	f	class:DateHelperTest
+test_select_minute_nil_with_blank_and_step	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_minute_nil_with_blank_and_step$/;"	f	class:DateHelperTest
+test_select_minute_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_minute_with_blank$/;"	f	class:DateHelperTest
+test_select_minute_with_blank_and_step	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_minute_with_blank_and_step$/;"	f	class:DateHelperTest
+test_select_minute_with_disabled	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_minute_with_disabled$/;"	f	class:DateHelperTest
+test_select_minute_with_field_name_override	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_minute_with_field_name_override$/;"	f	class:DateHelperTest
+test_select_month	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month$/;"	f	class:DateHelperTest
+test_select_month_he	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_he$/;"	f	class:DateHelperTest
+test_select_month_nil_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_nil_with_blank$/;"	f	class:DateHelperTest
+test_select_month_with_abbv	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_with_abbv$/;"	f	class:DateHelperTest
+test_select_month_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_with_blank$/;"	f	class:DateHelperTest
+test_select_month_with_disabled	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_with_disabled$/;"	f	class:DateHelperTest
+test_select_month_with_field_name_override	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_with_field_name_override$/;"	f	class:DateHelperTest
+test_select_month_with_numbers	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_with_numbers$/;"	f	class:DateHelperTest
+test_select_month_with_numbers_and_names	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_with_numbers_and_names$/;"	f	class:DateHelperTest
+test_select_month_with_numbers_and_names_with_abbv	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_month_with_numbers_and_names_with_abbv$/;"	f	class:DateHelperTest
+test_select_second	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_second$/;"	f	class:DateHelperTest
+test_select_second_nil_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_second_nil_with_blank$/;"	f	class:DateHelperTest
+test_select_second_with_blank	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_second_with_blank$/;"	f	class:DateHelperTest
+test_select_second_with_disabled	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_second_with_disabled$/;"	f	class:DateHelperTest
+test_select_second_with_field_name_override	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_second_with_field_name_override$/;"	f	class:DateHelperTest
+test_select_time_with_seconds	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_time_with_seconds$/;"	f	class:DateHelperTest
+test_select_time_without_seconds	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_time_without_seconds$/;"	f	class:DateHelperTest
+test_select_year	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_year$/;"	f	class:DateHelperTest
+test_select_year_descending	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_year_descending$/;"	f	class:DateHelperTest
+test_select_year_with_disabled	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_year_with_disabled$/;"	f	class:DateHelperTest
+test_select_year_with_field_name_override	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_year_with_field_name_override$/;"	f	class:DateHelperTest
+test_select_year_with_type_discarding	C:\Rails\Application\evolution\vendor\plugins\globalize\test\date_helper_test.rb	/^  def test_select_year_with_type_discarding$/;"	f	class:DateHelperTest
+test_set_translation	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_set_translation$/;"	f	class:ViewTranslationTest
+test_set_translation_pl	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_set_translation_pl$/;"	f	class:ViewTranslationTest.test_set_translation
+test_simple_normalization	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_simple_normalization$/;"	f	class:UTF8HandlingTest
+test_size	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_size$/;"	f	class:UTF8HandlingTest
+test_slice	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_slice$/;"	f	class:UTF8HandlingTest
+test_split	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_split$/;"	f	class:CharsTest
+test_states_were_set	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_states_were_set$/;"	f	class:ActsAsStateMachineTest
+test_string_substitute	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_string_substitute$/;"	f	class:ViewTranslationTest.test_set_translation
+test_string_substitute_he	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_string_substitute_he$/;"	f	class:ViewTranslationTest.test_set_translation
+test_strip	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_strip$/;"	f	class:UTF8HandlingTest
+test_symbol	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_symbol$/;"	f	class:ViewTranslationTest.test_set_translation
+test_syntax_error	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_syntax_error$/;"	f	class:ViewTranslationTest.test_set_translation
+test_this_plugin	C:\Rails\Application\evolution\vendor\plugins\exception_logger\test\exception_logger_test.rb	/^  def test_this_plugin$/;"	f	class:ExceptionLoggerTest
+test_tidy_bytes	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_tidy_bytes$/;"	f	class:UTF8HandlingTest
+test_times	C:\Rails\Application\evolution\vendor\plugins\globalize\test\core_ext_test.rb	/^  def test_times$/;"	f	class:CoreExtTest
+test_times	C:\Rails\Application\evolution\vendor\plugins\globalize\test\test_standard_data.rb	/^  def test_times$/;"	f	class:TestStandardData
+test_transition_table	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\test\acts_as_state_machine_test.rb	/^  def test_transition_table$/;"	f	class:ActsAsStateMachineTest
+test_translate	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_translate$/;"	f	class:ViewTranslationTest
+test_translate_offset	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_translate_offset$/;"	f	class:UTF8HandlingTest
+test_truth	C:\Rails\Application\evolution\test\unit\industry_test.rb	/^  def test_truth$/;"	f	class:IndustryTest
+test_truth	C:\Rails\Application\evolution\test\unit\portfolio_test.rb	/^  def test_truth$/;"	f	class:PortfolioTest
+test_truth	C:\Rails\Application\evolution\test\unit\sector_test.rb	/^  def test_truth$/;"	f	class:SectorTest
+test_utf8?	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def test_utf8?$/;"	f	class:CharsTest
+test_utf8_recognition	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def test_utf8_recognition$/;"	f	class:UTF8HandlingTest
+test_wrong_language	C:\Rails\Application\evolution\vendor\plugins\globalize\test\db_translation_test.rb	/^  def test_wrong_language$/;"	f	class:TranslationTest
+test_zero_form	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_zero_form$/;"	f	class:ViewTranslationTest.test_set_translation
+test_zero_form_default	C:\Rails\Application\evolution\vendor\plugins\globalize\test\view_translation_test.rb	/^  def test_zero_form_default$/;"	f	class:ViewTranslationTest.test_set_translation
+theme_37signals	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def theme_37signals$/;"	f	class:Gruff.Base
+theme_keynote	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def theme_keynote$/;"	f	class:Gruff.Base
+theme_odeo	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def theme_odeo$/;"	f	class:Gruff.Base
+theme_rails_keynote	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def theme_rails_keynote$/;"	f	class:Gruff.Base
+tidy_bytes	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def tidy_bytes(str)$/;"	f	class:ActiveSupport.UTF8Handler.normalize
+to_blob	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def to_blob(fileformat='PNG')$/;"	f	class:Gruff.Base
+to_case	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def to_case(way, str)$/;"	f	class:ActiveSupport.UTF8Handler.normalize.tidy_bytes
+to_currency	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def to_currency$/;"	f	class:Globalize.Product.Currency
+to_s	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\currency.rb	/^    def to_s$/;"	f	class:Globalize.Product.Currency
+to_s	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\models\language.rb	/^    def to_s;    english_name end$/;"	f	class:Globalize.Language
+to_str	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^    def to_str$/;"	f	class:ActiveSupport.Chars
+train_investors	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def train_investors$/;"	f	class:EvolutionController
+train_investors	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def train_investors$/;"	f	class:EvolutionController
+train_pms	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def train_pms$/;"	f	class:EvolutionController
+train_pms	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def train_pms$/;"	f	class:EvolutionController
+transitions	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^          def transitions(opts)$/;"	f	class:RailsStudio.Acts.StateMachine.SupportingClasses.TransitionCollector
+transitions	C:\Rails\Application\evolution\vendor\plugins\acts_as_state_machine\lib\acts_as_state_machine.rb	/^        def transitions(opts)        #:nodoc:$/;"	f	class:RailsStudio.Acts.StateMachine
+translate	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^      def translate(default = nil)$/;"	f	class:Globalize.CoreExtensions.Symbol
+translate	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\core_ext.rb	/^      def translate(default = nil, arg = nil)$/;"	f	class:Globalize.CoreExtensions.String
+translate	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.translate(key, default = nil, arg = nil) # :nodoc:$/;"	F	class:Globalize.Locale
+translate_offset	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\passthru_handler.rb	/^  def self.translate_offset(string, byte_offset) #:nodoc:$/;"	F	class:ActiveSupport
+translate_offset	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def translate_offset(str, byte_offset)$/;"	f	class:ActiveSupport.UTF8Handler.normalize
+translates	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def translates(*facets)$/;"	f	class:Globalize.DbTranslate.ClassMethods.Product
+translates_preload	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def translates_preload(*facets)$/;"	f	class:Product
+translation_data	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\templates\migration.rb	/^  def self.translation_data$/;"	F	class:GlobalizeMigration
+translator	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\locale.rb	/^    def self.translator; @@translator end $/;"	F	class:Globalize.Locale
+trim	C:\Rails\Application\evolution\doc\time series analysis\MIT OpenCourseWare  Economics  14_384 Time Series Analysis, Fall 2002  Syllabus.files\MITOPE~1.HTM	/^		function trim(inputString) $/;"	f
+try_to_login	C:\Rails\Application\evolution\_darcs\current\app\models\user.rb	/^	def try_to_login$/;"	f	class:User
+try_to_login	C:\Rails\Application\evolution\app\models\user.rb	/^	def try_to_login$/;"	f	class:User
+u_unpack	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def u_unpack(str)$/;"	f	class:ActiveSupport.UTF8Handler.normalize.tidy_bytes
+ui	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_conformance.rb	/^  def ui$/;"	f	class:String
+ui	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_handler_test.rb	/^  def ui$/;"	f	class:String
+untranslated_fields	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^            def untranslated_fields$/;"	f	class:Globalize.DbTranslate.ClassMethods.Product.translates
+untranslated_find	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^      def untranslated_find(*args)$/;"	f	class:TranslateClassMethods.Product.Category
+up	C:\Rails\Application\evolution\db\migrate\001_create_portfolios.rb	/^  def self.up$/;"	F	class:CreatePortfolios
+up	C:\Rails\Application\evolution\vendor\plugins\exception_logger\generators\exception_migration\templates\migration.rb	/^  def self.up$/;"	F
+up	C:\Rails\Application\evolution\vendor\plugins\globalize\generators\globalize\templates\migration.rb	/^  def self.up$/;"	F	class:GlobalizeMigration
+upcase	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler.rb	/^      def upcase(str); to_case :uppercase_mapping, str; end$/;"	f	class:ActiveSupport.UTF8Handler
+update_list	C:\Rails\Application\evolution\vendor\plugins\globalize\populators\pop_pluralization.rb	/^def update_list(list, pl)$/;"	f
+update_model	C:\Rails\Application\evolution\_darcs\current\app\controllers\evolution_controller.rb	/^  def update_model(periods, rfr)$/;"	f	class:EvolutionController
+update_model	C:\Rails\Application\evolution\app\controllers\evolution_controller.rb	/^  def update_model(periods, rfr)$/;"	f	class:EvolutionController
+update_translation	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^        def update_translation$/;"	f	class:TranslateObjectMethods
+utf8_pragma?	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\chars.rb	/^      def utf8_pragma?$/;"	f	class:ActiveSupport.Chars
+utf8map	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\lib\active_support\multibyte\handlers\utf8_handler_proc.rb	/^    def utf8map(str, *option_array) #:nodoc:$/;"	f	class:ActiveSupport
+valid	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\rfc_3066.rb	/^    def self.valid?(locale)$/;"	F	class:Globalize.RFC_3066
+validate_find_options	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\localization\db_translate.rb	/^        def validate_find_options(options) # :nodoc:$/;"	f	class:TranslateClassMethods.Product.Category
+validates_length_of	C:\Rails\Application\evolution\vendor\plugins\globalize\lib\globalize\rails\active_record.rb	/^      def validates_length_of(*attrs)$/;"	f	class:ActiveRecord.Validations.ClassMethods
+winner_ror	C:\Rails\Application\evolution\_darcs\current\app\models\ip.rb	/^	def self.winner_ror(ps, pe, investor)$/;"	F	class:Ip
+winner_ror	C:\Rails\Application\evolution\app\models\ip.rb	/^	def self.winner_ror(ps, pe, investor)$/;"	F	class:Ip
+with_kcode	C:\Rails\Application\evolution\vendor\plugins\activesupport_multibyte\test\multibyte_chars_test.rb	/^  def with_kcode(kcode)$/;"	f	class:CharsTest
+write	C:\Rails\Application\evolution\gnuplot\base.rb	/^    def write(filename="graph.png")$/;"	f	class:Gruff.Base

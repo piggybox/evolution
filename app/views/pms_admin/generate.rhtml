@@ -1,0 +1,25 @@
+<h1>Specify the range of PM's properties</h1>
+<br/>
+<%= start_form_tag :action => 'generate_pms', :controller => 'pms_admin' %>
+<table>
+  <tr><td><b>Memory</b></td><td> : </td><td>
+  <label for="from">from</label>
+  <%= text_field_tag(:memory_from, params[:memory_from], :value => 2, :size => 3) %>
+  <label for="to">to</label>
+  <%= text_field_tag(:memory_to, params[:memory_to], :size => 3) %>
+  <label for="step">step by</label>
+  <%= text_field_tag(:memory_step, params[:memory_step],
+        :value => 1, :size => 3) %></td></tr>
+
+  <tr><td><b>Confidence</b></td><td> : </td><td>
+  <label for="from">from</label>
+  <%= text_field_tag(:confidence_from, params[:confidence_from],
+        :value => 1, :size => 3) %>
+  <label for="to">to</label>
+  <%= text_field_tag(:confidence_to, params[:confidence_to], :size => 3) %>
+  <label for="step">step by</label>
+  <%= text_field_tag(:confidence_step, params[:confidence_step],
+        :value => 1, :size => 3) %></td></tr></table><br/>
+  <%= submit_tag "Generate" %><br/></td>
+<%= end_form_tag %>
+<br/>

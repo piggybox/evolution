@@ -1,0 +1,14 @@
+<h1>User List</h1>
+<br>
+<table>
+  <th>Name</th>
+  <% for user in @all_users -%>
+    <tr>
+      <td style="text-align: left;">&nbsp <%= user.name.capitalize %>&nbsp </td>
+      <td>&nbsp <%= link_to '<img align="absmiddle" alt="Delete" border="0" class="delete" 
+          src="/images/trash.gif" />', { :action => :delete_user, :id => user.id },
+              :confirm => "Are you sure to delete it?" %></td>
+    </tr>
+  <% end -%>
+</table>
+

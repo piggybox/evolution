@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2341"
+   name=""
+   committed-date="2006-10-09T00:45:44.116021Z"
+   url="http://svn.techno-weenie.net/projects/beast/trunk/vendor/plugins/browser_filters/lib"
+   last-author="technoweenie"
+   kind="dir"
+   uuid="567b1171-46fb-0310-a4c9-b4bef9110e78"
+   revision="2377"/>
+<entry
+   committed-rev="2341"
+   name="safari_unicode_fix.rb"
+   text-time="2006-10-19T16:00:28.473339Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="514af772310a5ef1d4b63ec59819aebb"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:28.433281Z"/>
+<entry
+   committed-rev="2341"
+   name="unicode_content_type.rb"
+   text-time="2006-10-19T16:00:28.483353Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="d6b5410bb5cda8d4e67eb8314ef0b826"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:28.433281Z"/>
+<entry
+   committed-rev="2341"
+   name="link_prefetching_block.rb"
+   text-time="2006-10-19T16:00:28.483353Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="230db365a167060ee5ec8856c2ef256b"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:28.463324Z"/>
+<entry
+   committed-rev="2341"
+   name="browser_filters.rb"
+   text-time="2006-10-19T16:00:28.493368Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="13c0126ca97339a7c35a82ff0256a75e"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:28.473339Z"/>
+</wc-entries>

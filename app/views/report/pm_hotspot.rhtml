@@ -1,0 +1,12 @@
+<% unless Pmp.calculate(:count, :id) == 0 %>
+<div class="right">
+<%= form_tag :controller => 'report', :action => 'pm_hotspot' %>
+  <%= radio_button_tag :plot_type, '3D', params[:plot_type] == '3D' %> 3D
+  <%= radio_button_tag :plot_type, 'Flat', params[:plot_type] == 'Flat' %> Flat
+  <%= submit_tag 'Change the view' %>
+<%= end_form_tag %>
+</div>
+<img src="/report/pm_hotspot_ror_chart">
+<img src="/report/pm_hotspot_sortino_chart">
+<% end %>
+<br>

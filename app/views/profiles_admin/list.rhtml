@@ -1,0 +1,36 @@
+<h1>Your Portfolio Members</h1>
+<br>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Ticker</th>
+    <th>Industry</th>
+    <th>Currency</th>
+    <th>Quote Type</th>
+    <th>Status</th>
+  </tr>
+
+<% for profile in @profiles %>
+  <tr>
+    <td style="text-align: left;"><%= profile.name %>&nbsp </td>
+    <td style="text-align: left;"><%= profile.ticker %>&nbsp </td>
+    <td style="text-align: left;"><%= profile.industry.name %>&nbsp </td>
+    <td style="text-align: center;"><%= profile.currency %>&nbsp </td>
+    <td style="text-align: left;"><%= profile.quote_type %>&nbsp </td>
+    <td style="text-align: left;"><%= profile.status %>&nbsp </td>    
+    <td>&nbsp <%= link_to '<img align="absmiddle" alt="Delete" border="0" 
+                          class="delete" src="/images/trash.gif" />', 
+                    {:action => 'destroy', :id => profile },
+                    :confirm => 'Are you sure to delete it?' %></td>
+  </tr>
+<% end %>
+</table>
+<%= pagination_links_each(@profile_pages, :window_size => 4) do |n|
+      "[<a href='?page=#{n}'>#{n}</a>]" 
+    end 
+%><br><br>
+<%= button_to "  Add a stock or industry ", :action => 'new' %><br>
+<%= button_to(" Set your portfolio empty ", {:controller => "profiles_admin",
+      :action => "clear_all"}, :confirm => 'Are you sure?') %><br>
+
+

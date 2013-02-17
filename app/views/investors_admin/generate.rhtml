@@ -1,0 +1,26 @@
+<h1>Specify the range of investor's properties</h1>
+<br/>
+<%= start_form_tag :action => 'generate_investors', :controller => 'investors_admin' %>
+<table><tr>
+  <td><b>Memory</b></td><td> : </td><td>
+  <label for="from">from</label>
+  <%= text_field_tag(:memory_from, params[:memory_from], :value => 2, :size => 3) %>
+  <label for="to">to</label>
+  <%= text_field_tag(:memory_to, params[:memory_to], :size => 3) %>
+  <label for="step">step by</label>
+  <%= text_field_tag(:memory_step, params[:memory_step],
+        :value => 1, :size => 3) %></td></tr>
+
+  <!--<tr><td><b>Greed</b></td><td> : </td><td>
+  <label for="from">from</label>
+  <%= text_field_tag(:greed_from, params[:greed_from],
+        :value => -100, :size => 3) %>
+  <label for="to">to</label>
+  <%= text_field_tag(:greed_to, params[:greed_to],
+        :value => 100, :size => 3) %>
+  <label for="step">step by</label>
+  <%= text_field_tag(:greed_step, params[:greed_step],
+        :value => 20, :size => 3) %></td></tr>-->
+</table><br/>
+  <%= submit_tag "Generate" %><br/></td>
+<%= end_form_tag %><br/>

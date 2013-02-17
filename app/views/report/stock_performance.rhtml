@@ -1,0 +1,33 @@
+<h1>Performance of stocks during all of imported periods</h1>
+
+<br>
+<table>
+  <tr>
+    <th>Ticker</th>
+    <th>&nbsp EAR* %</th>
+    <th>&nbsp Sortino Ratio*</th>
+  </tr>
+
+<% @stock.keys.each do |ticker| %>
+  <tr>
+    <td style="text-align: left;"><%= ticker %></td>
+    <td><%= "%-5.2f" % (@stock[ticker]['ror'] * 100 - 100) if @stock[ticker] %></td>
+    <td><%= "%-5.2f" % (@stock[ticker]['sortino']) if @stock[ticker] %></td>
+  </tr>
+<% end %>
+  <tr></tr>
+  <tr>
+    <td><b>Average</b></td>
+    <td><b><u><%= "%5.2f" % @stock_average %>
+    </u></b></td>
+    <td><b><u><%= "%5.2f" % @stock_sortino_average %>
+    </u></b></td>
+  </tr>
+</table>
+<br/>
+<li>For the period from <%= @period_list.first %> to <%= @period_list.last %>
+(including the periods of training and benchmark)<br>
+<li>EAR = Effective Annual Rate<br>
+<li>Sortino Ratio measures the risk-adjusted return<br>
+
+

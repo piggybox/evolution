@@ -1,0 +1,40 @@
+<h1>Import Historical Quotes</h1>
+<br>
+<%= start_form_tag :action => 'import_quotes', :controller => 'import' %>
+  <label for="date_from">Date from:</label><br>
+  <input type="text" name="date_from" id="date_from"
+    value="<%= @period_list.size != 0 ? @period_list.first.to_s : "" %>" />
+  <button type="reset" id="f_trigger_a">...</button>
+  <script type="text/javascript">
+    Calendar.setup({
+        inputField     :    "date_from",
+        ifFormat       :    "%Y-%m-%d",
+        button         :    "f_trigger_a",
+        step           :    1,
+        weekNumbers    :    false
+    });
+  </script><br><br/>
+
+  <label for="date_to">Date to:</label><br/>
+  <input type="text" name="date_to" id="date_to"
+    value="<%= @period_list.size != 0 ? @period_list.last.to_s : "" %>" />
+  <button type="reset" id="f_trigger_b">...</button>
+  <script type="text/javascript">
+    Calendar.setup({
+        inputField     :    "date_to",
+        ifFormat       :    "%Y-%m-%d",
+        button         :    "f_trigger_b",
+        step           :    1,
+        weekNumbers    :    false
+    });
+  </script>
+  <br><br>
+
+  <label for="quote_type">Quote Type:</label><br/>
+  <%= select_tag(:data_type,
+      options_for_select([:Weekly, :Daily], params[:data_type])) %>
+  <br><br/>
+  <%= submit_tag "Import selected periods" %><br/>
+<%= end_form_tag %><br/>
+<li>Internet connection required<br>
+<li>Longer period preferred for better evaluation

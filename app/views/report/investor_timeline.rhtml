@@ -1,0 +1,12 @@
+<h1>Historical Cumulative Performance of Investors</h1>
+<% unless Ip.count == 0 %>
+<div class="right">
+<%= form_tag :controller => 'report', :action => 'investor_timeline' %>
+  <%= radio_button_tag :plot_type, '3D', params[:plot_type] == '3D' %> 3D
+  <%= radio_button_tag :plot_type, 'Flat', params[:plot_type] == 'Flat' %> Flat
+  <%= submit_tag 'Change the view' %>
+<%= end_form_tag %>
+</div>
+<img src="/report/investor_timeline_ror_chart">
+<img src="/report/investor_timeline_sortino_chart">
+<% end %>

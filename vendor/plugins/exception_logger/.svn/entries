@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2341"
+   name=""
+   committed-date="2006-10-09T00:45:44.116021Z"
+   url="http://svn.techno-weenie.net/projects/beast/trunk/vendor/plugins/exception_logger"
+   last-author="technoweenie"
+   kind="dir"
+   uuid="567b1171-46fb-0310-a4c9-b4bef9110e78"
+   prop-time="2006-10-19T16:00:30.876795Z"
+   revision="2377"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   committed-rev="2341"
+   name="Rakefile"
+   text-time="2006-10-19T16:00:30.886809Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="e490d608ce95060f2ba002ddaf0af5b3"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.424707Z"/>
+<entry
+   name="tasks"
+   kind="dir"/>
+<entry
+   committed-rev="2341"
+   name="init.rb"
+   text-time="2006-10-19T16:00:30.886809Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="0ea4279477a246a1670eb089e080449d"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.544880Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="2341"
+   name="install.rb"
+   text-time="2006-10-19T16:00:30.896824Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="3773dce53854a282602d79a631a1ff8a"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.795240Z"/>
+<entry
+   name="generators"
+   kind="dir"/>
+<entry
+   committed-rev="2341"
+   name="uninstall.rb"
+   text-time="2006-10-19T16:00:30.896824Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="2a5fc883fe7f8dfe22ced24643d59ad4"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.456190Z"/>
+<entry
+   name="views"
+   kind="dir"/>
+<entry
+   committed-rev="2341"
+   name="README"
+   text-time="2006-10-19T16:00:30.906838Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="238c8ef43a9e211bf9770f82eb5c68a9"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.466204Z"/>
+</wc-entries>

@@ -1,0 +1,9 @@
+<h1>Tutorial</h1>
+<div id='tut'>
+  <%= render :partial => 't1' %>
+</div><br>
+<%= link_to_remote previous_icon, {:url => {:action => :previous}},
+                  {:id => 'previous', :style => 'display:none', :title => "Previous"} %>
+&nbsp&nbsp
+<%= link_to_remote next_icon, {:url => {:action => :next}}, 
+                  {:id => 'next', :title => "Next"}%>

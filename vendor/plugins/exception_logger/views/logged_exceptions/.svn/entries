@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2341"
+   name=""
+   committed-date="2006-10-09T00:45:44.116021Z"
+   url="http://svn.techno-weenie.net/projects/beast/trunk/vendor/plugins/exception_logger/views/logged_exceptions"
+   last-author="technoweenie"
+   kind="dir"
+   uuid="567b1171-46fb-0310-a4c9-b4bef9110e78"
+   revision="2377"/>
+<entry
+   committed-rev="2341"
+   name="query.rjs"
+   text-time="2006-10-19T16:00:30.696536Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="98470a6763abaa9c283712e0ee6f8bd9"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.666492Z"/>
+<entry
+   committed-rev="2341"
+   name="_show.rhtml"
+   text-time="2006-10-19T16:00:30.706550Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="e549a43065d1fd51758862b6e4d28c43"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.666492Z"/>
+<entry
+   committed-rev="2341"
+   name="_exceptions.rhtml"
+   text-time="2006-10-19T16:00:30.736593Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="c8de21f6cd9974cabd5d6819bdf3c4b5"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.676507Z"/>
+<entry
+   committed-rev="2341"
+   name="destroy.rjs"
+   text-time="2006-10-19T16:00:30.746608Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="64ae1570bd94188480dcd89031419976"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.676507Z"/>
+<entry
+   committed-rev="2341"
+   name="query.rxml"
+   text-time="2006-10-19T16:00:30.746608Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="77b263281cc9b2dc100038749193d884"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.676507Z"/>
+<entry
+   committed-rev="2341"
+   name="_feed.rhtml"
+   text-time="2006-10-19T16:00:30.756622Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="4d46a4ab62ee693051af30d4f60475d7"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.686521Z"/>
+<entry
+   committed-rev="2341"
+   name="index.rhtml"
+   text-time="2006-10-19T16:00:30.756622Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="2236632f750ad1e2256c230f375171a5"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.686521Z"/>
+<entry
+   committed-rev="2341"
+   name="show.rjs"
+   text-time="2006-10-19T16:00:30.766636Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="065546b17d25a8c9e758d01770932ddb"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.686521Z"/>
+<entry
+   committed-rev="2341"
+   name="destroy_all.rjs"
+   text-time="2006-10-19T16:00:30.866780Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="25db238f012ae3fdbdc1f15f5c0be687"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:30.696536Z"/>
+</wc-entries>

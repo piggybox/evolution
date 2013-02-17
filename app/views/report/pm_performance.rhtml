@@ -1,0 +1,38 @@
+<h1>Portfolio Managers Performance</h1>
+<% unless Pmp.count == 0 %>
+<br>
+
+<table>
+  <tr>
+    <th>Memory</th>
+    <th>&nbsp Confidence</th>
+    <th>&nbsp EAR* %</th>
+    <th>&nbsp Sortino Ratio*</th>
+  </tr>
+  <%
+  @pmps.each do |key|
+  %>
+  <tr>
+    <td>&nbsp <%= key.memory %></td>
+    <td>&nbsp <%= key.confidence %></td>
+    <td><%= "%-5.2f" % (@pmp[key]['ror'] * 100 - 100) %></td>
+    <td><%= "%-5.2f" % (@pmp[key]['sortino']) %></td>
+  </tr>
+<% end %>
+</table>
+<%= pagination_links_each(@pages, :window_size => 4) do |n|
+      "[<a href='?page=#{n}'>#{n}</a>]"
+    end
+%>
+<br><br>
+<%= button_to(" Clear all PM performance ", {:controller => "pms_admin",
+                      :action => "clear_pmp"}, :confirm => 'Are you sure?') %><br>
+<li>The PM performance during the whole benchmark period is only for internal usage.<br>
+<li>EAR = Effective Annual Rate<br>
+<li>Sortino Ratio measures the risk-adjusted return<br>
+<% end %>
+
+
+
+
+

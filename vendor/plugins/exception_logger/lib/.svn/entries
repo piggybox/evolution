@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2341"
+   name=""
+   committed-date="2006-10-09T00:45:44.116021Z"
+   url="http://svn.techno-weenie.net/projects/beast/trunk/vendor/plugins/exception_logger/lib"
+   last-author="technoweenie"
+   kind="dir"
+   uuid="567b1171-46fb-0310-a4c9-b4bef9110e78"
+   revision="2377"/>
+<entry
+   committed-rev="2341"
+   name="logged_exception.rb"
+   text-time="2006-10-19T16:00:29.765196Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="5526eec2532556a08238ced330519f67"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.745168Z"/>
+<entry
+   committed-rev="2341"
+   name="logged_exceptions_helper.rb"
+   text-time="2006-10-19T16:00:29.775211Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="bf43526d4b7d6ec43255061cb994b435"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.755182Z"/>
+<entry
+   committed-rev="2341"
+   name="logged_exceptions_controller.rb"
+   text-time="2006-10-19T16:00:29.775211Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="0bc7d3eec35836c76df597465561a93d"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.755182Z"/>
+<entry
+   committed-rev="2341"
+   name="exception_loggable.rb"
+   text-time="2006-10-19T16:00:29.785225Z"
+   committed-date="2006-10-09T00:45:44.116021Z"
+   checksum="541f4dfb02d7967524cd96cae1af1cea"
+   last-author="technoweenie"
+   kind="file"
+   prop-time="2006-10-19T16:00:29.755182Z"/>
+</wc-entries>

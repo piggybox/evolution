@@ -1,0 +1,216 @@
+.menutitle{
+	cursor:pointer;
+	margin-bottom: 5px;
+	background-color:#eeeecc;
+	color:#33333;
+	width:124px;
+	height:30px;
+	padding:2px;
+	text-align:left;
+  font-weight:bold;
+	border:1px solid #006600;
+}
+
+.submenu{
+	margin-bottom: 0.5em;
+  font: bold small sans-serif;
+}
+
+#banner {
+  background: #FFFFFF;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  /*border-bottom: 2px solid;*/
+  text-align: center;
+}
+
+
+#footer
+{ bottom: 0;
+	clear: both;
+	margin: 0;
+	padding: 0 15%;
+	color: #666666;
+	background-color: #FFFFFF;
+	text-align: center;
+	height: 40px;
+}
+
+
+#banner img {
+  float: center;
+  border: 0;
+}
+
+#columns {
+	padding-top: 0em;
+  /*background: #141;*/
+}
+
+#main {
+  margin-left: 130px;
+  padding-top: 1em;
+  padding-left: 5em;
+  background: white;
+}
+
+#main table {
+	/*border-collapse: collapse;*/
+}
+
+#main tr {
+	text-align: center;
+}
+
+#main td {
+	background: #eec;
+	text-align: right;
+	border-width: 0px 0px 1px 0px;
+  border-style: dotted dotted dotted dotted;
+  border-color: gray gray gray gray;
+}
+
+#main th {
+  background: #ff9801;
+  border-width: 0px 0px 0px 1px;
+	padding: 0px 3px 2px 3px;
+	/*border-style: dashed;*/
+	border-color: black;
+
+}
+
+#side {
+  float: left;
+	margin-top: 2em;
+  padding-top: 2em;
+  margin-left: 1em;
+  padding-bottom: 2em;
+  width: 130px;
+  background: #006600;
+	/*border:1px solid #333333;*/
+}
+
+#side a {
+  color: #ffffff;
+  font: small sans-serif;
+  margin: 1px;
+}
+
+#side a:hover {
+  color: #ffffff;
+	background-color:#009900;
+	font: bold sans-serif;
+}
+
+#side hr {
+	width: 130px;
+	height: 1px solid;
+}
+
+#notice {
+  border: 1px solid orange;
+  padding: 1em;
+  margin-right: 20em;
+  margin-bottom: 1em;
+	margin-top: 2ex;
+
+  background-color: #ffcc66;
+  font: small sans-serif;
+  #font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  font: small sans-serif;
+}
+
+a.addtocart {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #141;
+  background: #cec;
+  font-weight: bold;
+}
+
+a.addtocart:hover {
+  color: #000;
+  background: #eec;
+}
+
+
+/**** styles for the catalog ***/
+
+/* === Use the Holly Hack on .catalogentry === */
+
+/* Hide from IE-mac \*/
+* html .catalogentry { height: 1%; }
+/* End hide from IE-mac */
+
+.catalogentry {
+  padding: 1ex 0ex;
+}
+
+.catalogentry img {
+  float: left;
+  margin-right: 2em;
+}
+
+.catalogentry h3 {
+  font: larger bold;
+  color: #282;
+  margin-top: 0ex;
+  margin-bottom: 0.5ex;
+}
+
+.catalogentry p {
+  font: smaller sans-serif;
+  margin-bottom: .5ex;
+}
+
+.catalogprice {
+  padding-right: 4em;
+}
+
+/* Shoppng cart screen */
+
+.carttitle {
+  background: #282;
+  color: #dfd;
+  font: bold smaller sans-serif;
+  text-align: center;
+}
+
+.carttitle TD {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.right {
+  float: right;
+  margin-top: 15ex;
+	margin-right: 5ex;
+	/*border: 1px dotted #333333;*/
+	/*background: #eeeecc;*/
+} 
+
+
+.login {
+  float: right;
+	margin-top: -5ex;
+  padding-top: 5ex;*/
+	padding-right: 2ex;*/
+	margin-right: 3ex;
+	padding-left: 2ex;
+
+}
+
+#totalcell {
+  font-weight: bold;
+  border-top: 1px solid #282;
+  border-bottom: 2px solid #282;
+}
+
+.separator {
+  border-bottom: 1px dotted #282;
+  clear: both;
+}
